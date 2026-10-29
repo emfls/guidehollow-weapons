@@ -85,7 +85,7 @@ line([1.0,2.05,-1.65],[1.28,2.05,-1.65],'#b2c4ad',1);
 const hex=(str)=>{str=str.replace('#','');return [parseInt(str.slice(0,2),16),parseInt(str.slice(2,4),16),parseInt(str.slice(4,6),16)]};
 const light=[-.55,.8,-.65];const norm3=v=>{let l=Math.hypot(...v)||1;return v.map(n=>n/l)};
 const lunit=norm3(light);let angle=0.78,target=angle,velocity=0,down=false,startX=0,lastX=0,auto=true,visible=true,w=650,h=420,ratio=1,prev=0,frame=null;
-function point(p){let ca=Math.cos(angle),sa=Math.sin(angle);let x=ca*p[0]+sa*p[2],z=-sa*p[0]+ca*p[2],y=p[1];const e=.32;let yy=y*Math.cos(e)+z*Math.sin(e),zz=-y*Math.sin(e)+z*Math.cos(e);const perspective=12/(12+zz*.43);const scale=Math.min(w/10.8,h/5.95);return {x:w*.505+x*scale*perspective,y:h*.58-yy*scale*perspective,z:zz,wx:x,wy:yy};}
+function point(p){let ca=Math.cos(angle),sa=Math.sin(angle);let x=ca*p[0]+sa*p[2],z=-sa*p[0]+ca*p[2],y=p[1];const e=.32;let yy=y*Math.cos(e)+z*Math.sin(e),zz=-y*Math.sin(e)+z*Math.cos(e);const perspective=12/(12+zz*.43);const scale=Math.min(w/14.4,h/6.4);return {x:w*.53+x*scale*perspective,y:h*.58-yy*scale*perspective,z:zz,wx:x,wy:yy};}
 function normal(points){let a=points[0],b=points[1],c=points[2],v=[b[0]-a[0],b[1]-a[1],b[2]-a[2]],u=[c[0]-a[0],c[1]-a[1],c[2]-a[2]];return norm3([v[1]*u[2]-v[2]*u[1],v[2]*u[0]-v[0]*u[2],v[0]*u[1]-v[1]*u[0]])}
 function lit(color,n,shade){const base=hex(color);const brightness=Math.max(.49,Math.min(1.24,(.75 + Math.abs(n[0]*lunit[0]+n[1]*lunit[1]+n[2]*lunit[2])*.24)*shade));return 'rgb('+base.map(v=>Math.min(244,Math.round(v*brightness))).join(',')+')'}
 const surfaces=faces.map(f=>({...f,normal:normal(f.points)}));
