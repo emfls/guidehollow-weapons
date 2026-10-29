@@ -8,7 +8,7 @@
 - `index.html` : 메인
 - `atlas/index.html` : 이름·국가·분야 검색
 - `compare/index.html` : 브라우저에서 실행되는 비교 도구
-- `weapons/<slug>/index.html` : 독립 URL의 도감 25건
+- `weapons/<slug>/index.html` : 독립 URL의 도감 26건
 - `assets/catalog.js` : 비교 데이터(정적 JSON JS)
 - `assets/site.js` : 검색·비교·링크 복사
 - `assets/style.css` : 모바일 우선 다크 테마
@@ -52,3 +52,10 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - LAH 이미지 완성 시 전용 `assets/weapons/lah-miron.webp`로 교체 후 카탈로그 `imagePending`을 제거하고 상세/홈/atlas/비교 전부 일관되게 수정
 - 카탈로그, 홈 도감 수, 검색·분야 분류, 비교, 사이트맵 등록 동기화
 - 미르온 이미지 제작·검수는 별도 이미지 담당 채팅이 담당. 공식 사진 링크를 실물 검증에만 활용하고 무단 재게시하지 않는다
+
+## 4차 항공기 확장 · 2026-10-29
+- KT-1 웅비 신규 도감 `weapons/kt1-woongbi/index.html` 추가(총 26종)
+- KTX-1 최초 비행(1991), KT-1 양산기 납품(2000), KT-1B/T/P 수출형, KA-1 공중통제형과 KA-1S 구분
+- KAI 및 국방과학연구소 자료를 근거로 제원·역사·사진 확인 링크 제공
+- KT-1 웅비 신규 도감 이미지 제작 대기(`imagePending: true`); 다른 기체의 사진을 대체하지 않음
+- 도감 26종, 군용항공기 8종으로 목록·홈·검색·제원비교·사이트맵 동기화
