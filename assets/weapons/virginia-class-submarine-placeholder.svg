@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">Virginia class submarine 이미지 제작 대기</title>
+<desc id="desc">잠수함을 묘사하지 않는 짙은 남색 텍스트 임시 표지로 실제 형상은 표시하지 않습니다.</desc>
+<rect width="960" height="540" fill="#111C2B"/>
+<g fill="none" stroke="#385167" stroke-width="2"><path d="M75 105H885M75 435H885"/><path d="M75 105V435M885 105V435"/></g>
+<text x="480" y="220" text-anchor="middle" fill="#E5EDF6" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="4">VIRGINIA CLASS</text>
+<text x="480" y="278" text-anchor="middle" fill="#A8BACB" font-family="Arial,sans-serif" font-size="20">NUCLEAR-POWERED ATTACK SUBMARINE</text>
+<text x="480" y="352" text-anchor="middle" fill="#7BE0D0" font-family="Arial,sans-serif" font-size="18">IMAGE PENDING — NOT AN ACTUAL SUBMARINE ILLUSTRATION</text>
+</svg>
