@@ -147,6 +147,7 @@
 - **국내 양산 단계**: 1차 외산 파워팩, 2차 국산 엔진·외산 변속기 혼합, 3차 KVMF 등 개발·적용 예정 공표, 4차 국산 변속기 채택 결정(2024). 변속기 관련 시험 306시간 후 결함 보고를 삭제하지 않고 함께 언급. 4차 납품 완료로 단정하지 않음.
 - **K2GF vs K2PL**: K2GF는 기존 차체 기반 긴급 수출형(통신·표기 변경 등), K2PL은 폴란드형 개발·현지 생산 계획. APS/드론 재머/RCWS 등 2025년 공표는 생산 형식의 도입 **계획**이며 모든 실물 차량의 탑재 완료로 단정하지 않음.
 - **2026 현지화**: 4월 BUMAR-ŁABĘDY 협력 계약과 9월 현지 장비 적용형 전시 단계 명시.
+- **K2ME 중동형**: 2026-03-27 개발 중 실물 최초 공개. 고온 환경 대응 개발형이며 실제 해외 공급계약·인도 확인과 엄격히 구분.
 - **폴란드 수출 수량**: 2025년 상반기 1차 133대 실제 인도, 47대 연말 인도 **예정**(2025년 발표 기준). 2차 K2GF 116대는 2027년까지 **추가 인도 예정**(동 발표 기준). 2025년 수치를 2026년 현재 현역 보유수량으로 일반화 금지.
 - **페루**: 2025년 K2 54대·K808 141대 **총괄합의**, 후속 이행계약 별도 필요. 실전 배치 완료로 기록하지 않음.
 - 검색 데이터 `assets/catalog.js`의 `k2-black-panther` 단일 항목만 갱신, 24개 식별자 체계 유지.
@@ -159,7 +160,8 @@
 2. **K2GF (K2 Gap Filler Main Battle Tank)** — 폴란드 초기 긴급 도입형. 언어·통신장치 등 개정 사양을 반영하며, 국내 기본형의 외형을 완전히 다른 설계처럼 표현하지 말 것.
 3. **K2PL (K2 Poland)** — 폴란드 현지화형. 2025년 모형과 2026년 현지 임무장비 적용 전시물의 형상은 다를 수 있으므로 특정 전시 연도·대상을 고정하고 실제 제품 출시·대량 배치 완료로 오인시키지 말 것.
 4. **K2PL ARV / AEV / AVLB** — 구난·장애물개척·교량 지원 차량. 모두 120mm 주포를 단 K2 주력전차가 아니므로 상세 사진을 K2 MBT로 표시하지 말 것.
-5. K2 계열은 포탑 옆 장비, 측면 장갑, 연막탄 발사기, 포신 길이, 후면 파워팩 외형 등 확인할 수 있는 범위만 실사진과 대조하고 비공개 장비를 추정해 그리지 않는다.
+5. **K2ME (Middle East)** — 2026년 3월 개조개발 중 실물 전시가 확인됨. 국내형·K2GF·K2PL 중 어느 한 형식의 사진으로 대신 표시하지 말고 중동형 고온 대응부품 외형을 제조사 사진과 대조할 것.
+6. K2 계열은 포탑 옆 장비, 측면 장갑, 연막탄 발사기, 포신 길이, 후면 파워팩 외형 등 확인할 수 있는 범위만 실사진과 대조하고 비공개 장비를 추정해 그리지 않는다.
 
 **공식 외형 기준 링크**
 - 현대로템 K2 제품 페이지 (기본형 이미지 및 공개 제원): https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8
@@ -167,6 +169,7 @@
 - 현대로템 K2PL 목업·K2GF 실차 전시 (2025-09-01): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2503
 - 현대로템 K2PL 폴란드 현지 생산 협력 (2026-04-28): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2635
 - 현대로템 K2PL 현지 장비 전시 (2026-09-08): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2748
+- 현대로템 K2ME 개조개발 실물 공개 (2026-03-27): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2600
 
 **고정 스타일:** 한 장에 전차 1대, 전체 궤도·포신이 보이는 3/4 시점, 피사체 주변 여백, 고해상도 16:9, **완전 단색 #111C2B** 배경, 연기·전장·사람·글자·국기·배경 풍경 금지. AI 생성 이미지임을 명시. K2GF 외형과 K2PL 특정 연도 전시 컨셉을 혼합하지 말 것.
 
@@ -179,6 +182,7 @@
 - 현대로템 2025년 폴란드 K2GF·K2PL 구별 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2503
 - 현대로템 2026년 현지 생산·정비 협력 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2635
 - 현대로템 2026년 K2PL 전시 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2748
+- 현대로템 2026년 K2ME 개발형 실물 공개 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2600
 - 현대로템 2025년 페루 총괄합의 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2553
 
 **범위:** 공개 기술·역사·산업 및 근거 검증. 장비의 제조/개조/작전·교전 운용 절차는 다루지 않음.
