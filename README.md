@@ -8,7 +8,7 @@
 - `index.html` : 메인
 - `atlas/index.html` : 이름·국가·분야 검색
 - `compare/index.html` : 브라우저에서 실행되는 비교 도구
-- `weapons/<slug>/index.html` : 독립 URL의 도감 26건
+- `weapons/<slug>/index.html` : 독립 URL의 도감 27건
 - `assets/catalog.js` : 비교 데이터(정적 JSON JS)
 - `assets/site.js` : 검색·비교·링크 복사
 - `assets/style.css` : 모바일 우선 다크 테마
@@ -59,3 +59,11 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - KAI 및 국방과학연구소 자료를 근거로 제원·역사·사진 확인 링크 제공
 - KT-1 웅비 신규 도감 이미지 제작 대기(`imagePending: true`); 다른 기체의 사진을 대체하지 않음
 - 도감 26종, 군용항공기 8종으로 목록·홈·검색·제원비교·사이트맵 동기화
+
+## 5차 항공기 확장 · 2026-10-29
+- KA-1 공중통제기 신규 도감 `weapons/ka1-airborne-controller/index.html` 추가(총 27종)
+- 과거 KO-1 명칭과 2005년 최초 비행, 2006년 공군 실전배치를 구분
+- KT-1 기본훈련기와 KA-1의 임무·최대이륙중량 차이 및 페루·세네갈 수출형 설명
+- KAI 제조사·방위사업청 공식 발표와 제조사 제공 실물 사진 링크 수록
+- 전용 이미지 제작 대기(`imagePending:true`), 다른 기종 사진을 임시 재사용하지 않음
+- 전체 27종, 군용항공기 9종으로 홈·도감·비교·사이트맵·카탈로그 동기화
