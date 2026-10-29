@@ -8,7 +8,7 @@
 - `index.html` : 메인
 - `atlas/index.html` : 이름·국가·분야 검색
 - `compare/index.html` : 브라우저에서 실행되는 비교 도구
-- `weapons/<slug>/index.html` : 독립 URL의 도감 14건
+- `weapons/<slug>/index.html` : 독립 URL의 도감 25건
 - `assets/catalog.js` : 비교 데이터(정적 JSON JS)
 - `assets/site.js` : 검색·비교·링크 복사
 - `assets/style.css` : 모바일 우선 다크 테마
@@ -35,7 +35,7 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - **동작:** 모션은 피사체의 느린 이동·확대와 최소한의 제목 등장만 사용
 
 ## 정적 AI 콘셉트 이미지 (2026-10-29)
-- `assets/weapons/*.webp` 총 14종, 단색 #111C2B 배경.
+- 초기 14종 이미지 제작 당시 `assets/weapons/*.webp` 총 14종이었으며, 이후 2차 확장 10종이 더해졌다. 현재 24종 보유.
 - 모든 메인·카드·상세·비교 영역에 적용.
 - 현재 일부 AI 개념 렌더는 실제 기종 외형과 다를 수 있으므로 구체적 자료 사진으로 취급하지 않습니다.
 - 회전 뷰어 비활성화. `/motion/`은 정적 이미지 예시로 전환.
@@ -45,3 +45,10 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - 신규 WebP 이미지 10개 (AI 생성 개념 이미지, 단색 다크 배경) 및 출처 링크
 - 검색·국가 필터·제원 비교·사이트맵 동기화
 - AI 이미지의 실제 기종별 외형 일치 검증은 별도 필요
+
+## 3차 항공기 확장 · 2026-10-29
+- 25번째 도감 `weapons/lah-miron/index.html`: KAI LAH-1 미르온 공식 제원·개발 이력·육군 첫 인도·LCH 및 수리온과의 차이 수록
+- 24종 이미지 중 타 기체 이미지를 재활용하지 않으며, LAH-1의 `imagePending` 항목은 단색 #111C2B 텍스트 플레이스홀더 표시
+- LAH 이미지 완성 시 전용 `assets/weapons/lah-miron.webp`로 교체 후 카탈로그 `imagePending`을 제거하고 상세/홈/atlas/비교 전부 일관되게 수정
+- 카탈로그, 홈 도감 수, 검색·분야 분류, 비교, 사이트맵 등록 동기화
+- 미르온 이미지 제작·검수는 별도 이미지 담당 채팅이 담당. 공식 사진 링크를 실물 검증에만 활용하고 무단 재게시하지 않는다
