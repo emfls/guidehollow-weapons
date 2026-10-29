@@ -42,7 +42,7 @@
 - 현황: 레이더·지휘통제·발사장치가 결합된 시스템이라고 설명하나 주요 개량 계열, 체계와 요격탄의 관계 및 직접 출처가 빠짐.
 - 보강: Patriot 체계의 역사와 역할, 레이더·지휘통제·발사기·요격탄 구분, PAC-2 GEM-T 계열과 PAC-3 및 PAC-3 MSE의 **명칭·업체·개발 계보**를 구별하여 기술.
 - 주의: 제조사별 공개 홍보 성능, 시험 성과, 실전 요격률을 동일한 측정치처럼 혼합하거나 무조건적 성공률을 기재하지 않기. 방어·회피·타격 절차는 쓰지 않기.
-- 근거: https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/global-patriot-solutions ; https://www.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/pac3-mse/mfc-pac-3-mse-pc.pdf
+- 근거: https://www.rtx.com/raytheon/what-we-do/integrated-air-and-missile-defense/global-patriot-solutions ; https://sustainability.lockheedmartin.com/content/dam/lockheed-martin/mfc/pc/meads/mfc-pac-3-mse-pc.pdf
 
 ### [높음] 아이언 돔 — `weapons/iron-dome/index.html`
 
