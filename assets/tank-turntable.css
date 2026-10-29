@@ -1,0 +1,20 @@
+/* Atlas object viewer: same matte background used by all catalog illustration media */
+.turntable-hero{background:#111c2b!important;background-image:none!important;display:block!important;position:relative;overflow:hidden;min-height:420px;border:1px solid #354855;border-radius:14px;isolation:isolate}
+.turntable-hero::before,.turntable-hero::after{display:none!important}
+.turntable-hero .turn-model{position:relative;height:390px;width:100%;background:#111c2b;display:block;cursor:grab;touch-action:pan-y;outline-offset:-4px}
+.turntable-hero.is-dragging .turn-model{cursor:grabbing}
+.turntable-header{position:absolute;top:20px;left:22px;right:22px;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:12px;pointer-events:none}
+.turntable-header span:first-child{font-size:10px;letter-spacing:1.5px;color:#8aa7ac;font-weight:800}
+.turntable-header span:last-child{font-size:11px;color:#b5cbc8;border:1px solid #435d62;border-radius:99px;padding:6px 10px;background:#111c2bdd}
+.turntable-controls{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 19px 16px;border-top:1px solid #243544;background:#111c2b}
+.turntable-caption{display:grid;gap:5px;min-width:0}
+.turntable-caption strong{font-size:16px;letter-spacing:.5px;color:#e6f4f1}
+.turntable-caption small{color:#849da5;font-size:10px;line-height:1.5}
+.turntable-actions{display:flex;align-items:center;gap:7px;flex-shrink:0}
+.turntable-actions button{font:600 11px inherit;font-family:inherit;font-size:11px;font-weight:700;background:#1b333b;border:1px solid #416b69;color:#d5eee7;padding:9px 11px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.turntable-actions button:hover{background:#274a4f;border-color:#7fd1bd}
+.turntable-instruction{position:absolute;bottom:100px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:11px;color:#8facaa;z-index:2;pointer-events:none;letter-spacing:.3px}
+.turntable-alert{font-size:9px;color:#79929c;padding:0 21px 14px;background:#111c2b;line-height:1.5}
+@media(max-width:800px){.turntable-hero{min-height:370px}.turntable-hero .turn-model{height:335px}}
+@media(max-width:520px){.turntable-hero{min-height:300px}.turntable-hero .turn-model{height:267px}.turntable-header{top:13px;left:14px;right:14px}.turntable-caption strong{font-size:13px}.turntable-controls{padding:9px 11px 11px;gap:5px}.turntable-actions button{font-size:10px;padding:7px 8px}.turntable-alert{padding:0 12px 10px;font-size:9px}.turntable-instruction{bottom:92px;font-size:10px}}
+@media(prefers-reduced-motion:reduce){.turntable-hero *{scroll-behavior:auto}}
