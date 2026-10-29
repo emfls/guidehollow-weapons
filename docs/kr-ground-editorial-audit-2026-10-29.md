@@ -64,3 +64,33 @@
 4. K21, K808, K1A2: 사용자가 혼동하기 쉬운 차량 계열별 비교 강화
 
 **실제 장비의 사격·운용 절차, 개조 방법, 기술 설계도는 본 프로젝트 범위에 포함하지 않는다.**
+
+
+## 두 번째 원고: K239 천무 상세 도감 (2026-10-29)
+
+- 원고: `weapons/k239-chunmoo/index.html` 기존 URL 보강 (새 slug 추가하지 않음)
+- 검색·비교 데이터: `assets/catalog.js`의 동일 `k239-chunmoo` 단일 항목 업데이트
+- 본문 구성: 핵심 제원, 개발·전력화, 플랫폼·포드 구조, 유도 로켓과 공개 제원, 국가별 파생형, 수출 연혁, 자주포와 비교, FAQ, 출처
+- 사실 검증 우선순위: 방위사업청의 **2015년 국내 전력화**, 2022년 폴란드 계약; 한화의 **2개 발사 포드**, CGR-080 239mm/최대 약 80km; CTM-MR·CTM-290 제품군, 2025~2026년 공개 계약·예정 인도 구분
+- 중요한 구분: 계약 발사대 수 ≠ 실제 배치 완료 차량 수; CGR-080 사거리 ≠ 모든 천무 탄종의 사거리; 폴란드 Homar-K ≠ 국내형의 모든 부품 및 지원체계 사양
+
+### K239 이미지 담당 채팅 인계 (이미지 비제작)
+1. **기본형 장비명:** K239 Chunmoo Multiple Rocket Launcher System / K239 천무 다연장로켓
+2. **형상 기준:** 공개 기본형은 **8×8 차륜 발사차량**, 후방 장비부에 **2개 발사 포드**. 실제 포드의 외형·차량형식은 특정 국가의 공식 사진과 비교할 것. 포드 내부 탄종을 그림의 구멍 수나 미사일 형태만으로 임의 결정하지 말 것.
+3. **비교 형식:** 폴란드 **Homar-K**는 국가별 현지형으로 구분, 국내 K239의 현지 차량·전자장비와 동일한 외관으로 단정하지 말 것. 노르웨이·에스토니아·크로아티아는 계약과 실제 인도가 구분됨.
+4. **공식 외형 참고 자료** (사진 재사용 권한을 의미하지 않음):
+   - 한화, Eurosatory 2026 제품·발사대 소개: https://m.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=636
+   - 한화, 에스토니아 도입 발표 및 K239 이미지 캡션: https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-to-supply-three-additional-chunmoo-multiple-rocket-launchers-to-estonia.do
+   - 한화, 크로아티아형 공개 소개: https://org-www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-to-supply-chunmoo-mrls-to-croatia.do
+   - 한화, 폴란드 Homar-K 발표: https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-signs-contract-to-produce-chunmoo-missile-in-poland.do
+5. **렌더 스타일 인계:** 무기 1종 1장 / 전체 피사체 / 단색 `#111C2B` / 16:9 / 실제 플랫폼 형상과 포드 구조 교차 검증 / 배경·인물·글자·국기 없음 / AI 생성 개념 이미지 표시.
+6. 이미지 자산은 이 PR에서 변경하지 않음.
+
+### K239 원문 검증 링크
+- 방위사업청 2015년 전력화 재확인(2025): https://dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=20952&menuSeq=3069
+- 방위사업청 2022 폴란드 계약: https://dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=15967&menuSeq=3069
+- 한화 CGR-080·Homar-K·2030년 인도 시작 계획(2025): https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-signs-contract-to-produce-chunmoo-missile-in-poland.do
+- 한화 탈레스 협력 및 공개 탄종(2026): https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=631
+- 한화 노르웨이 계약 16문(2026): https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-secures-first-contract-to-supply-chunmoo-mrls-to-norway.do
+- 한화 에스토니아 6+3문 계약과 2027년 인도 예정: https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=589 / https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-to-supply-three-additional-chunmoo-multiple-rocket-launchers-to-estonia.do
+- 방위사업청 크로아티아 18대 계약: https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=59153&menuSeq=3069
