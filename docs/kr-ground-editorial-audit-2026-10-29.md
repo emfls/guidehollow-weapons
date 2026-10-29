@@ -135,3 +135,50 @@
 - 국방일보 2026년 K55A1 훈련 보도: https://kookbang.dema.mil.kr/newsWeb/20260528/2/ATCE_CTGR_0010030000/view.do
 
 **작업 원칙:** 역사와 공개 제원에 한정, 제작·개조·실전 운용 절차 없음. AI 이미지 실제 제작 및 수정 없음.
+
+
+## 네 번째 원고: K2 흑표 전차 (2026-10-29)
+
+### 점검·원고 수정
+- 기존 K2 페이지는 개요·역사·이해할 점·자료 등 4개 섹션에 머물러 있었으며 K2 1~4차 국내 양산, 파워팩 차이, 2025년 2차 폴란드 계약, K2GF/K2PL 및 2026년 현지화 발표 정보가 부족했음.
+- **기존 URL 유지:** `weapons/k2-black-panther/index.html`. 새로운 K2 slug 생성하지 않음.
+- 본문 9개 섹션: 기본 제원 / 개발 역사 / 국내 1~4차 양산 / 화력·기동·방호·전장관리 공개 기술 / K2GF·K2PL / 폴란드·페루 계약 구분 / K1A2·해외 전차 비교 / FAQ / 직접 출처.
+- **원형 K2 제원(제조사)**: 승무원 3명, 56t, 120mm·55구경장 주포, 자동장전, 1,500마력 디젤, 70km/h(포장도로), 450km(제조사 공개값). 고객 요구별 변동 가능.
+- **국내 양산 단계**: 1차 외산 파워팩, 2차 국산 엔진·외산 변속기 혼합, 3차 KVMF 등 개발·적용 예정 공표, 4차 국산 변속기 채택 결정(2024). 변속기 관련 시험 306시간 후 결함 보고를 삭제하지 않고 함께 언급. 4차 납품 완료로 단정하지 않음.
+- **K2GF vs K2PL**: K2GF는 기존 차체 기반 긴급 수출형(통신·표기 변경 등), K2PL은 폴란드형 개발·현지 생산 계획. APS/드론 재머/RCWS 등 2025년 공표는 생산 형식의 도입 **계획**이며 모든 실물 차량의 탑재 완료로 단정하지 않음.
+- **2026 현지화**: 4월 BUMAR-ŁABĘDY 협력 계약과 9월 현지 장비 적용형 전시 단계 명시.
+- **폴란드 수출 수량**: 2025년 상반기 1차 133대 실제 인도, 47대 연말 인도 **예정**(2025년 발표 기준). 2차 K2GF 116대는 2027년까지 **추가 인도 예정**(동 발표 기준). 2025년 수치를 2026년 현재 현역 보유수량으로 일반화 금지.
+- **페루**: 2025년 K2 54대·K808 141대 **총괄합의**, 후속 이행계약 별도 필요. 실전 배치 완료로 기록하지 않음.
+- 검색 데이터 `assets/catalog.js`의 `k2-black-panther` 단일 항목만 갱신, 24개 식별자 체계 유지.
+
+### 이미지 제작 채팅 인계 — K2 흑표 기본형 및 K2GF/K2PL
+> 이번 채팅은 이미지 파일을 만들거나 변경하지 않는다. 아래 링크는 장비 형상과 명칭 확인용 자료이며 이미지 재사용·재배포 허가가 아니다.
+
+**기준 장비명**
+1. **K2 Black Panther / K2 흑표** (대한민국 육군 기본형) — 3인 승무원, 120mm·55구경장 활강포, 궤도형 전차. 동체/포탑 실루엣을 K1A2와 혼동하지 말 것.
+2. **K2GF (K2 Gap Filler Main Battle Tank)** — 폴란드 초기 긴급 도입형. 언어·통신장치 등 개정 사양을 반영하며, 국내 기본형의 외형을 완전히 다른 설계처럼 표현하지 말 것.
+3. **K2PL (K2 Poland)** — 폴란드 현지화형. 2025년 모형과 2026년 현지 임무장비 적용 전시물의 형상은 다를 수 있으므로 특정 전시 연도·대상을 고정하고 실제 제품 출시·대량 배치 완료로 오인시키지 말 것.
+4. **K2PL ARV / AEV / AVLB** — 구난·장애물개척·교량 지원 차량. 모두 120mm 주포를 단 K2 주력전차가 아니므로 상세 사진을 K2 MBT로 표시하지 말 것.
+5. K2 계열은 포탑 옆 장비, 측면 장갑, 연막탄 발사기, 포신 길이, 후면 파워팩 외형 등 확인할 수 있는 범위만 실사진과 대조하고 비공개 장비를 추정해 그리지 않는다.
+
+**공식 외형 기준 링크**
+- 현대로템 K2 제품 페이지 (기본형 이미지 및 공개 제원): https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8
+- 현대로템 K2GF 실차·K2PL 모델 비교 (2023): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2021
+- 현대로템 K2PL 목업·K2GF 실차 전시 (2025-09-01): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2503
+- 현대로템 K2PL 폴란드 현지 생산 협력 (2026-04-28): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2635
+- 현대로템 K2PL 현지 장비 전시 (2026-09-08): https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2748
+
+**고정 스타일:** 한 장에 전차 1대, 전체 궤도·포신이 보이는 3/4 시점, 피사체 주변 여백, 고해상도 16:9, **완전 단색 #111C2B** 배경, 연기·전장·사람·글자·국기·배경 풍경 금지. AI 생성 이미지임을 명시. K2GF 외형과 K2PL 특정 연도 전시 컨셉을 혼합하지 말 것.
+
+### 공식 원문 확인 경로
+- 현대로템 K2 제품 제원 https://www.hyundai-rotem.co.kr/ko/business/defense/details.do?productNm=K2+%EC%A0%84%EC%B0%A8
+- 현대로템 2022년 개발 역사 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=1040
+- 방위사업청 2022년 K2 2차 전력화 완료 https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=14579&menuSeq=3069
+- 방위사업청 2023년 K2 4차 양산 계획 https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=17057&menuSeq=3069
+- 방위사업청 2024년 국산 변속기 채택 결정 https://dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=20104&menuSeq=3069
+- 현대로템 2025년 폴란드 K2GF·K2PL 구별 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2503
+- 현대로템 2026년 현지 생산·정비 협력 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2635
+- 현대로템 2026년 K2PL 전시 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2748
+- 현대로템 2025년 페루 총괄합의 https://www.hyundai-rotem.co.kr/ko/company/press/details.do?seq=2553
+
+**범위:** 공개 기술·역사·산업 및 근거 검증. 장비의 제조/개조/작전·교전 운용 절차는 다루지 않음.
