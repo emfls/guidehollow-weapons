@@ -8,7 +8,7 @@
 - `index.html` : 메인
 - `atlas/index.html` : 이름·국가·분야 검색
 - `compare/index.html` : 브라우저에서 실행되는 비교 도구
-- `weapons/<slug>/index.html` : 독립 URL의 도감 27건
+- `weapons/<slug>/index.html` : 독립 URL의 도감 28건
 - `assets/catalog.js` : 비교 데이터(정적 JSON JS)
 - `assets/site.js` : 검색·비교·링크 복사
 - `assets/style.css` : 모바일 우선 다크 테마
@@ -67,3 +67,10 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - KAI 제조사·방위사업청 공식 발표와 제조사 제공 실물 사진 링크 수록
 - 전용 이미지 제작 대기(`imagePending:true`), 다른 기종 사진을 임시 재사용하지 않음
 - 전체 27종, 군용항공기 9종으로 홈·도감·비교·사이트맵·카탈로그 동기화
+
+## 6차 항공기 확장 · 2026-10-29
+- T-50 골든이글 고등훈련기: `weapons/t50-golden-eagle/index.html` 신규 등록(총 28종)
+- KAI/록히드마틴 공식 근거로 2001년 시제기 출고, 2002년 최초 비행, 2003년 첫 초음속 비행, 2005년 첫 양산기 납품, 2007년 학생 조종사 첫 비행훈련 구분
+- T-50, TA-50, FA-50, T-50B 역할 및 기본형/개량형 제원 분리, 동남아·중동 수출 훈련형과 경전투기형 구분
+- 이미지 `imagePending:true`, 실제 T-50 전용 렌더 없으므로 #111C2B 단색 대기 표시(타 항공기 이미지 재사용 금지)
+- 홈·Atlas·비교·사이트맵·README 일치: 전체 28종, 군용항공기 10종
