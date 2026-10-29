@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+<title id="title">RQ-4 Global Hawk 이미지 준비 중</title>
+<desc id="desc">실제 항공기 사진이나 AI 생성 이미지를 대신하는 단색 텍스트 자리표시자입니다.</desc>
+<rect width="960" height="540" fill="#111C2B"/>
+<g fill="none" stroke="#385167" stroke-width="2"><path d="M75 105H885M75 435H885"/><path d="M75 105V435M885 105V435"/></g>
+<text x="480" y="218" text-anchor="middle" fill="#E5EDF6" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="5">RQ-4 GLOBAL HAWK</text>
+<text x="480" y="278" text-anchor="middle" fill="#A8BACB" font-family="Arial,sans-serif" font-size="20">HIGH-ALTITUDE RECONNAISSANCE AIRCRAFT</text>
+<text x="480" y="354" text-anchor="middle" fill="#7BE0D0" font-family="Arial,sans-serif" font-size="19">IMAGE PENDING — NOT A REPRESENTATION OF THE AIRCRAFT</text>
+</svg>
