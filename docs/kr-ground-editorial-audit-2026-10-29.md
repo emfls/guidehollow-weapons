@@ -94,3 +94,44 @@
 - 한화 노르웨이 계약 16문(2026): https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-secures-first-contract-to-supply-chunmoo-mrls-to-norway.do
 - 한화 에스토니아 6+3문 계약과 2027년 인도 예정: https://www.hanwhaaerospace.com/eng/media/newsroom/view.do?seq=589 / https://www.hanwha.com/newsroom/news/press-releases/hanwha-aerospace-to-supply-three-additional-chunmoo-multiple-rocket-launchers-to-estonia.do
 - 방위사업청 크로아티아 18대 계약: https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=59153&menuSeq=3069
+
+
+## 세 번째 원고: K55A1 자주포 상세 보강 (2026-10-29)
+
+### 기존 페이지 문제·수정 범위
+- 기존 페이지는 역사·비교가 각 한 단락에 가까웠고, K55 원형과 K55A1의 생산·개량 기록, 실제 야전 운용, K56 지원체계, 출처별 사거리 차이가 충분히 설명되지 않았음.
+- **기존 URL 유지:** `weapons/k55a1/index.html` (새 도감 slug 없음).
+- **검색 데이터 동기화:** `assets/catalog.js`의 `k55a1` 단일 항목만 편집.
+- 구성: 개요·제원 / K55 역사 / K55A1 개량 내용 / M109A2·K55·K55A1 및 K56·K77 계보 / 야전 운용 / K9·K239 비교 / FAQ / 공식 출처.
+- 제조사 현대위아 **30km** 대 국방일보 **32km**는 별도 출처 표기로 유지; 원인 불명 상태에서 임의로 일치시켜 쓰지 않음.
+- 국방일보 2018년 K55A1 **2011년 초 최초 전력화**와 2025년 기사의 **2013년부터 야전 배치**는 발표 자료의 서술 차이로 표시.
+- 기존 K55 **약 1,000문** 1985~1997년 생산 규모는 K55A1의 성능개량 완료 수량으로 오인하지 않음.
+- 2021년 방위사업청의 K56 **2025년까지 배치 예정**은 당시 계획으로 취급하고 실제 완료 여부 미확인으로 표시.
+- 2026년 5월 국방일보의 K55A1 실제 훈련 기사로 '모든 K55A1이 2025년 퇴역했다'는 오해 방지.
+
+### K55A1 외형 이미지 전담 채팅 인계 (이 채팅은 이미지 작업 없음)
+**표기:** K55A1 Self-Propelled Howitzer / 대한민국 K55A1 155mm 자주포
+
+**구분:**
+1. K55A1의 포신: **155mm·39구경장**, 궤도형 M109A2 계열 차체 기반 — K9의 52구경장 장포신과 혼용 금지.
+2. K55 원형과 K55A1은 매우 유사한 외관을 공유하며, 국가별 생산 시기·표기가 확인되지 않은 단일 사진에서 개량형을 임의 확정하지 않는다.
+3. K56 Ammunition Resupply Vehicle은 K55A1 탄약 운반 지원차량, K77 Fire Direction Control Vehicle은 별개 지휘차량; 어떤 것도 포신 달린 K55A1 자주포의 사진으로 대체하지 않는다.
+4. K9은 별도의 독자 개발 신형 자주포. K55A1 포탑과 차체를 K9 외형으로 보정하거나 합성하지 않는다.
+5. 단일 피사체 전체가 보이는 16:9 고해상도, **#111C2B** 완전 단색 배경, 배경 풍경·인물·문자·국기 없음. AI 생성물은 'AI 생성 개념 이미지'로 명시.
+
+**공식 외형·기술 교차 확인 자료** (사진 재사용/2차 배포 허가를 뜻하지 않음)
+- 현대위아 K9/K55A1 제품명·공개 사진 및 39구경장: https://www.hyundai-wia.com/business/defense_ground01.asp
+- 한화에어로스페이스 지상 화력체계 K55A1·K56 제품군: https://www.hanwhaaerospace.com/kor/whatwedo/product/land.do?category=6
+- 방위사업청 K56·K55A1 공식 설명: https://www.dapa.go.kr/dapa/doc/selectDoc.do?bbsSeq=326&docSeq=12346&menuSeq=3069
+- 국방일보 무기백과 K55A1 사진·차종 명시: https://kookbang.dema.mil.kr/newsWeb/m/20181211/1/BBSMSTR_000000100036/view.do
+- 국방일보 2026-05-28 K55A1 운용 사진 및 설명: https://kookbang.dema.mil.kr/newsWeb/20260528/2/ATCE_CTGR_0010030000/view.do
+
+### 검증용 1차 출처·인용
+- 2025년 국방품질연구논집 K55 무장조립체 역사·국산화: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003281956
+- 현대위아 K55A1 30km·39구경장·발사속도: https://www.hyundai-wia.com/business/defense_ground01.asp
+- 국방일보 K55A1 2011 초기 전력화 기록: https://kookbang.dema.mil.kr/newsWeb/m/20181211/1/BBSMSTR_000000100036/view.do
+- 국방일보 K55A1 2019년 32km·GPS/INS: https://kookbang.dema.mil.kr/newsWeb/20190405/1/ATCE_CTGR_0020050014/view.do
+- 국방일보 2025년 특정 부대 K9 전환 보도: https://kookbang.dema.mil.kr/newsWeb/20250710/2/ATCE_CTGR_0010030000/view.do
+- 국방일보 2026년 K55A1 훈련 보도: https://kookbang.dema.mil.kr/newsWeb/20260528/2/ATCE_CTGR_0010030000/view.do
+
+**작업 원칙:** 역사와 공개 제원에 한정, 제작·개조·실전 운용 절차 없음. AI 이미지 실제 제작 및 수정 없음.
