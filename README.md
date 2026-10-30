@@ -118,3 +118,8 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - Atlas now shows 337 entries = 33 published, 304 queued. Planned entries are explicitly unlinked and carry no speculative specifications.
 - Never promote a queued entry to catalog/compare/sitemap until the article is researched, checked and published. Remove the queue card when publishing to prevent duplication.
 - Retain the image quality gate: only visually approved weapon imagery is displayed.
+
+## K1 전차 원고 완성 — 2026-10-30
+- `weapons/k1-mbt/index.html`: 최초 한국형 전차 K1의 개발사·시험·배치·105mm 강선포·유기압 현수장치·K1A1/K1E1/K1A2 구분·운용·외형·FAQ·기관 출처 6건.
+- 기존 337종 전체 목록 유지: 공개 원고 34종 / 편집 대기 303종. 편집 대기 원장에서 `k1-mbt`만 제거하고 고유 상세 URL·홈/도감/비교실/사이트맵에 1회 등록.
+- `imagePending: true`. 승인 이미지 없이 텍스트 대기 상태 유지. `assets/site.js`, `assets/style.css`, 기존 바이너리, 이미지 승인 목록 미변경.
