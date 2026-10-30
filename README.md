@@ -81,3 +81,11 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - 공식 출처 기반 원고를 개별 페이지로 통합하며 검색, 비교 선택지, 사이트맵을 동기화
 - 신규 5종 이미지는 실제 기종 외형 검수 완료 전까지 의도적으로 '도감 이미지 준비 중' 상태 유지
 - 원고 이전 출처: work/weapons-global-ground-m4-sherman 및 선행 PR #7, #9, #10, #13, #17
+
+
+## Image quality publication gate (2026-10-30)
+- The site currently publishes only the K2 Black Panther concept render. All other weapon imagery is suppressed in the homepage, categories, atlas cards, article pages, related cards and comparison tool.
+- Do not delete any existing image binaries. Keep them available for image review/replacement.
+- Controlled centrally by \`approvedWeaponImages\` in \`assets/site.js\` and the anti-flash CSS whitelist in \`assets/style.css\`.
+- A larger file size alone does not establish quality. Require a reviewed, recognizable, crisp, correct-weapon render before adding a slug to both whitelists.
+- The actual encyclopedia articles remain publicly accessible. Missing visuals show a uniform \`도감 이미지 준비 중\` state.

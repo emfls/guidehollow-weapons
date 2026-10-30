@@ -49,3 +49,18 @@
 
 /* New encyclopedia entries remain text-only until verified media is supplied. */
 .media-pending{background:#111C2B!important;min-height:120px}.media-pending-note{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;width:100%;height:100%;min-height:120px;padding:14px;text-align:center;color:#a7bfce}.media-pending-note strong{font-size:15px;font-weight:700;color:#dcebef}.media-pending-note span{font-size:11px;color:#829cab;line-height:1.5}.article-art.media-pending .media-pending-note{min-height:280px}.compare-image-pending{height:120px;display:flex;align-items:center;justify-content:center;background:#111C2B;border-radius:7px;color:#91acba;font-size:12px}.prose-section h3{color:#d6e9eb;font-size:19px;margin:28px 0 10px;line-height:1.45}.history-timeline{padding-left:24px;color:#b0c2cf;font-size:14px;line-height:1.9}.history-timeline li{margin:12px 0}.history-timeline strong{color:#e3f3f0}.type10-table-scroll{overflow-x:auto;margin:24px 0;border:1px solid var(--border);border-radius:9px}.type10-compare{border-collapse:collapse;width:100%;min-width:450px;font-size:13px;text-align:left}.type10-compare caption{padding:12px 16px;text-align:left;color:#8daab9;background:#132234;font-size:12px}.type10-compare th,.type10-compare td{padding:13px 15px;border-top:1px solid var(--border);vertical-align:top}.type10-compare thead th,.type10-compare tbody th{background:#152438;color:#b8d2da}.type10-compare tbody td{color:#d5e4eb}.prose-section a{color:#90dfd6;text-underline-offset:3px}.prose-section a:hover{text-decoration:underline}
+
+
+/* media-quality-gate-20261030
+   Conservative publication policy: K2 is currently the only visually approved image.
+   CSS blocks old renders before deferred JS can replace them with a pending state.
+   Add newly approved slugs to both selectors and site.js allowlist. */
+img[src^="/assets/weapons/"]:not([src*="/k2-black-panther.webp"]){visibility:hidden!important}
+.media-pending.quality-hidden{background:#111C2B!important}
+.media-pending.quality-hidden::before,.media-pending.quality-hidden::after{display:none!important}
+.media-pending.quality-hidden .media-pending-note{min-height:100%;height:100%;width:100%}
+.quality-pending-mini,.quality-pending-side,.quality-pending-feature{display:flex;align-items:center;justify-content:center;background:#111C2B;color:#9fb4c1;text-align:center;letter-spacing:-.02em;border:1px dashed #33495b;border-radius:6px}
+.category-illustration .quality-pending-mini{height:100%;width:100%;padding:9px;font-size:11px;font-weight:600;line-height:1.35}
+.side-story .quality-pending-side{box-sizing:border-box;right:8px;width:115px;height:65%;top:17.5%;font-size:11px;opacity:.6;z-index:0}
+.featured-story .quality-pending-feature{top:18%;height:64%;right:3%;width:42%;font-size:13px;opacity:.55}
+@media(max-width:520px){.category-illustration .quality-pending-mini{font-size:9px;padding:4px}.side-story .quality-pending-side{width:70px;right:8px;font-size:9px}.featured-story .quality-pending-feature{font-size:10px;width:32%}.media-pending.quality-hidden .media-pending-note strong{font-size:13px}.media-pending.quality-hidden .media-pending-note span{font-size:10px}}
