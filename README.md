@@ -111,3 +111,10 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - Atlas now lists 257 weapons: 33 published articles and 224 clearly marked planned entries.
 - Each planned entry has a unique slug and remains unlinked, unindexed as an individual article and without unverified imagery.
 - On article completion remove the matching queue record, publish a source-backed page, replace planned card with a linked card, and add verified metadata to catalog and sitemap.
+
+
+## Editorial backlog batch D (2026-10-30)
+- New entries: 80 (20 per specialist editorial group 1-4); batch flag `2026-10-30-d`.
+- Atlas now shows 337 entries = 33 published, 304 queued. Planned entries are explicitly unlinked and carry no speculative specifications.
+- Never promote a queued entry to catalog/compare/sitemap until the article is researched, checked and published. Remove the queue card when publishing to prevent duplication.
+- Retain the image quality gate: only visually approved weapon imagery is displayed.
