@@ -89,3 +89,10 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - Controlled centrally by \`approvedWeaponImages\` in \`assets/site.js\` and the anti-flash CSS whitelist in \`assets/style.css\`.
 - A larger file size alone does not establish quality. Require a reviewed, recognizable, crisp, correct-weapon render before adding a slug to both whitelists.
 - The actual encyclopedia articles remain publicly accessible. Missing visuals show a uniform \`도감 이미지 준비 중\` state.
+
+
+## Editorial backlog (2026-10-30)
+- 64 independent weapons have been added to `data/weapon-backlog.json`, assigned 16 each to editorial chats 1–4.
+- All 64 are visible under `/atlas/` as nonclickable `원고 준비 중` entries, searchable/filterable by country, category and status.
+- Distinguish 97 total listed subjects from 33 completed articles. The new entries are not in `GH_DATA` comparison results or sitemap until their factual pages are ready.
+- After an editorial PR publishes an entry: remove its item from backlog, replace its atlas article with a linked card, and update the count. Only approve a weapon image after separate visual QA.
