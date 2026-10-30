@@ -4,17 +4,6 @@
   "updatedAt": "2026-10-30",
   "items": [
     {
-      "slug": "k1-mbt",
-      "name": "K1 전차",
-      "english": "K1 Main Battle Tank",
-      "category": "지상무기",
-      "country": "대한민국",
-      "type": "주력전차",
-      "editor": 1,
-      "status": "planned",
-      "imageStatus": "pending"
-    },
-    {
       "slug": "k1a1-mbt",
       "name": "K1A1 전차",
       "english": "K1A1 Main Battle Tank",
