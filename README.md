@@ -104,3 +104,10 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - Exact item slugs and editorial assignment: `data/weapon-backlog.json` (includes `batch: "2026-10-30-b"`).
 - Planned entries remain unlinked and do not enter `assets/catalog.js`, detailed URLs or sitemap until specialists complete their fact-checked articles.
 - Publication of any queued weapon must also remove that entry from the backlog to avoid duplicates. Image display continues to require separate visual-quality approval.
+
+
+## Editorial backlog batch C (2026-10-30)
+- 80 new planned weapon subjects, 20 per specialist editing group (1–4), `batch: 2026-10-30-c`.
+- Atlas now lists 257 weapons: 33 published articles and 224 clearly marked planned entries.
+- Each planned entry has a unique slug and remains unlinked, unindexed as an individual article and without unverified imagery.
+- On article completion remove the matching queue record, publish a source-backed page, replace planned card with a linked card, and add verified metadata to catalog and sitemap.
