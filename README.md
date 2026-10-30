@@ -96,3 +96,11 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - All 64 are visible under `/atlas/` as nonclickable `원고 준비 중` entries, searchable/filterable by country, category and status.
 - Distinguish 97 total listed subjects from 33 completed articles. The new entries are not in `GH_DATA` comparison results or sitemap until their factual pages are ready.
 - After an editorial PR publishes an entry: remove its item from backlog, replace its atlas article with a linked card, and update the count. Only approve a weapon image after separate visual QA.
+
+
+## Weapons backlog batch B (2026-10-30)
+- 80 additional planned subjects added: 20 each for editors 1/2/3/4.
+- Public atlas: 177 cards total = 33 published article cards + 144 clearly marked editorial placeholders.
+- Exact item slugs and editorial assignment: `data/weapon-backlog.json` (includes `batch: "2026-10-30-b"`).
+- Planned entries remain unlinked and do not enter `assets/catalog.js`, detailed URLs or sitemap until specialists complete their fact-checked articles.
+- Publication of any queued weapon must also remove that entry from the backlog to avoid duplicates. Image display continues to require separate visual-quality approval.
