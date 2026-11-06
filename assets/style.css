@@ -55,7 +55,7 @@
    Conservative publication policy: K2 is currently the only visually approved image.
    CSS blocks old renders before deferred JS can replace them with a pending state.
    Add newly approved slugs to both selectors and site.js allowlist. */
-img[src^="/assets/weapons/"]:not([src*="/k2-black-panther.webp"]){visibility:hidden!important}
+img[src^="/assets/weapons/"]{visibility:hidden!important}
 .media-pending.quality-hidden{background:#111C2B!important}
 .media-pending.quality-hidden::before,.media-pending.quality-hidden::after{display:none!important}
 .media-pending.quality-hidden .media-pending-note{min-height:100%;height:100%;width:100%}
@@ -87,3 +87,8 @@ img[src^="/assets/weapons/"]:not([src*="/k2-black-panther.webp"]){visibility:hid
 .planned-notice a{color:#8be0d0;font-size:12px;font-weight:750;white-space:nowrap}
 @media(max-width:750px){.filter-bar:has(#atlas-stage){align-items:stretch}.filter-bar:has(#atlas-stage) .filter-field{min-width:calc(50% - 10px)!important;flex:1}.filter-bar:has(#atlas-stage) .filter-field.wide{min-width:100%!important}.planned-notice{flex-wrap:wrap}.planned-notice span{flex-basis:100%}}
 @media(max-width:500px){.filter-bar:has(#atlas-stage) .filter-field{min-width:100%!important}.planned-notice{gap:8px}.planned-notice strong{font-size:14px}}
+
+.documentary-photo img{width:100%;height:100%;object-fit:contain;background:#111c2b}
+.compare-photo{margin:0 0 8px}
+.compare-photo img{display:block;width:100%;height:auto;object-fit:contain;background:#111c2b}
+.compare-photo figcaption{font-size:11px;margin-top:4px}

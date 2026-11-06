@@ -8,7 +8,7 @@
 - `index.html` : 메인
 - `atlas/index.html` : 이름·국가·분야 검색
 - `compare/index.html` : 브라우저에서 실행되는 비교 도구
-- `weapons/<slug>/index.html` : 독립 URL의 도감 28건
+- `weapons/<slug>/index.html` : 기종별 상세 도감
 - `assets/catalog.js` : 비교 데이터(정적 JSON JS)
 - `assets/site.js` : 검색·비교·링크 복사
 - `assets/style.css` : 모바일 우선 다크 테마
@@ -18,14 +18,14 @@
 ## 편집 정책
 - 역사·공개 기술·제원과 비교에 집중
 - 실제 운용·제조·개조·구매 지침 제공하지 않음
-- 초기 그림은 종류별 개념 도식이며 정확한 외형 재현 아님
-- 사진과 상세 제원은 출처·사용 권한을 확인한 뒤 추가
+- 도감과 비교 화면에는 기종과 재사용 조건이 확인된 실물 사진만 표시
+- 실물 사진은 기종과 이용 조건을 확인해 촬영자·원본·라이선스를 표시. 상세 제원은 공개 원문을 확인한 뒤 추가
 - 네이버 웹마스터 소유확인 메타태그 모든 페이지에 포함
 
 ## 주의
 GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`로, `GitHub Actions`이면 워크플로 배포 결과로 사이트가 표시됩니다. 두 경로를 모두 지원하도록 순수 정적으로 작성했습니다.
 
-## 이미지 공통 배경 규칙
+## 과거 이미지 공통 배경 규칙 (2026-10-29)
 - **고정 색상:** `#111C2B` (모든 썸네일, 상세 도감, 히어로, 모션 시연)
 - **배경 요소 금지:** 풍경, 스튜디오 세트, 안개, 먼지, 광선, 하늘, 격자, 그라데이션, 장식 패턴
 - **피사체:** 무기 한 대(또는 역사 자료의 개념 도식)만 중앙에 완전히 노출
@@ -36,7 +36,7 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 
 ## 정적 AI 콘셉트 이미지 (2026-10-29)
 - 초기 14종 이미지 제작 당시 `assets/weapons/*.webp` 총 14종이었으며, 이후 2차 확장 10종이 더해졌다. 현재 24종 보유.
-- 모든 메인·카드·상세·비교 영역에 적용.
+- 당시 메인·카드·상세·비교 영역에 적용.
 - 현재 일부 AI 개념 렌더는 실제 기종 외형과 다를 수 있으므로 구체적 자료 사진으로 취급하지 않습니다.
 - 회전 뷰어 비활성화. `/motion/`은 정적 이미지 예시로 전환.
 
@@ -118,3 +118,11 @@ GitHub Pages 설정에서 Source가 `Deploy from a branch`이면 `main /(root)`�
 - Atlas now shows 337 entries = 33 published, 304 queued. Planned entries are explicitly unlinked and carry no speculative specifications.
 - Never promote a queued entry to catalog/compare/sitemap until the article is researched, checked and published. Remove the queue card when publishing to prevent duplication.
 - Retain the image quality gate: only visually approved weapon imagery is displayed.
+
+## 실물 사진 및 도감 보강 · 2026-11-07
+
+- 대기 원고 300종을 공식 출처가 있는 상세 도감으로 옮겼다. 로컬 작업본은 상세 도감 337편이며 도감 목록·검색·비교·사이트맵에 같은 기종을 연결한다.
+- 기존 사진 없는 상세 글 28편에 검증된 실물 사진을 추가해 `assets/photos/`의 사진은 37장이다. 촬영된 세부 형식·저작자·원본·라이선스를 표시하고 크기와 파일 형식만 변경했다.
+- 추가한 300편에는 실물 사진 확인 상태를 표시한다. 기존 AI 렌더는 도감, 목록, 홈, 비교, 공유 미리보기에서 제외했다.
+- OH-6A는 미 육군 형식으로 분류하고 한국 육군 500MD와의 관계를 설명한다. EC-47Q는 미 공군 부대사, 사진 기록, 참전자 자료를 구분해 인용한다.
+- 이 수치는 로컬 작업본 기준이다.
