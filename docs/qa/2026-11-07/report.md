@@ -1,7 +1,7 @@
 # 탐색·비교 개선 검증 보고서
 
 대상 `emfls/guidehollow-weapons`, 기준 커밋 `4036baa36d101713409fd2822c036d2c10cdf10f`.
-작업 브랜치 `codex/weapons-discovery-comparison-20261107`. main 직접 push·병합·배포는 하지 않는다.
+작업 브랜치 `codex/weapons-discovery-comparison-20261107` · [PR #20](https://github.com/emfls/guidehollow-weapons/pull/20). main 직접 push·병합·배포하지 않았다. 최종 CI 상태는 PR Checks에서 확인한다.
 
 ## 변경 파일과 해결한 문제
 
