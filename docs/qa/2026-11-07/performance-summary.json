@@ -1,0 +1,57 @@
+[
+  {
+    "page": "home",
+    "beforeDOM": 518,
+    "afterDOM": 293,
+    "beforeHTMLBytes": 31998,
+    "afterHTMLBytes": 17788,
+    "beforeImageRequests": 12,
+    "afterImageRequests": 10,
+    "beforeImageBytes": 908334,
+    "afterImageBytes": 611218
+  },
+  {
+    "page": "atlas",
+    "beforeDOM": 4168,
+    "afterDOM": 1091,
+    "beforeHTMLBytes": 275150,
+    "afterHTMLBytes": 48806,
+    "beforeImageRequests": 13,
+    "afterImageRequests": 16,
+    "beforeImageBytes": 1188682,
+    "afterImageBytes": 1514270
+  },
+  {
+    "page": "compare",
+    "beforeDOM": 812,
+    "afterDOM": 941,
+    "beforeHTMLBytes": 8224,
+    "afterHTMLBytes": 55312,
+    "beforeImageRequests": 2,
+    "afterImageRequests": 2,
+    "beforeImageBytes": 146086,
+    "afterImageBytes": 146086
+  },
+  {
+    "page": "m1",
+    "beforeDOM": 181,
+    "afterDOM": 381,
+    "beforeHTMLBytes": 9295,
+    "afterHTMLBytes": 28552,
+    "beforeImageRequests": 1,
+    "afterImageRequests": 1,
+    "beforeImageBytes": 58846,
+    "afterImageBytes": 58846
+  },
+  {
+    "page": "f35",
+    "beforeDOM": 193,
+    "afterDOM": 503,
+    "beforeHTMLBytes": 10555,
+    "afterHTMLBytes": 33294,
+    "beforeImageRequests": 1,
+    "afterImageRequests": 1,
+    "beforeImageBytes": 18916,
+    "afterImageBytes": 18916
+  }
+]

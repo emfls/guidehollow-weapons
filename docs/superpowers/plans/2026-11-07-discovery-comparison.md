@@ -1,6 +1,6 @@
 # 도감 탐색·비교 Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** 같은 기준의 데이터로 찾기·읽기·비교를 개선하고 검토 가능한 PR을 만든다.
 **Architecture:** 정적 배포 유지. 공통 JSON 데이터와 Node/브라우저 공유 순수 함수로 생성 HTML과 상호작용을 일치시킨다.
@@ -23,23 +23,23 @@
 
 ### Task 1: 공통 탐색 데이터·회귀 검증
 - [x] 저장소·실행 화면 원인 확인, 변경 전 20개 화면 기록.
-- [ ] `tests/catalog-core.test.cjs`에 검색/국가/개수/URL/제원 의미 테스트 작성 후 실패 확인.
-- [ ] `assets/catalog-core.js`, `data/catalog.json` 최소 구현. 기존 별칭·자료 검토일·크레딧 보존.
-- [ ] Node 테스트 통과 확인.
+- [x] `tests/catalog-core.test.cjs`에 검색/국가/개수/URL/제원 의미 테스트 작성 후 실패 확인.
+- [x] `assets/catalog-core.js`, `data/catalog.json` 최소 구현. 기존 별칭·자료 검토일·크레딧 보존.
+- [x] Node 테스트 통과 확인.
 
 ### Task 2: 대표 자료와 비교 프로필
-- [ ] 직접 열람한 공식 문서로 `data/editorial.json`의 M1·F35·K2 프로필과 본문 작성.
-- [ ] `crew/combatMass/vehicleMass/roadSpeed/standardTerrainSpeed/combatRadius/range` 정의·출처·상태 테스트.
-- [ ] 본문과 비교가 같은 프로필을 사용하는 생성 구조 확인.
+- [x] 직접 열람한 공식 문서로 `data/editorial.json`의 M1·F35·K2 프로필과 본문 작성.
+- [x] `crew/combatMass/vehicleMass/roadSpeed/standardTerrainSpeed/combatRadius/range` 정의·출처·상태 테스트.
+- [x] 본문과 비교가 같은 프로필을 사용하는 생성 구조 확인.
 
 ### Task 3: 정적 생성과 화면 동작
-- [ ] `scripts/build.mjs`, `templates`로 공통 수치·홈·24개 도감·337개 이름 링크·의미 있는 비교 표 생성.
-- [ ] `assets/site.js`에 필터·정렬·페이지·검색 대상 좁히기·형식·공유·popstate 복원 구현.
-- [ ] `assets/style.css`에 실제 화면에서 확인한 모바일·터치·표·포커스 개선.
-- [ ] `scripts/validate.mjs`와 PR 전용 CI로 정적 링크/이미지/메타/재생성 검증. 기존 main 배포 경로는 유지.
+- [x] `scripts/build.mjs`, `templates`로 공통 수치·홈·24개 도감·337개 이름 링크·의미 있는 비교 표 생성.
+- [x] `assets/site.js`에 필터·정렬·페이지·검색 대상 좁히기·형식·공유·popstate 복원 구현.
+- [x] `assets/style.css`에 실제 화면에서 확인한 모바일·터치·표·포커스 개선.
+- [x] `scripts/validate.py`와 PR 전용 CI로 정적 링크/이미지/메타/재생성 검증. 기존 main 배포 경로는 유지.
 
 ### Task 4: 전체 검증과 PR
-- [ ] Node 테스트·build --check·정적 검증 실행, 새 오류 수정.
-- [ ] 실제 브라우저 URL·뒤로가기·키보드·모바일·JS 없는 링크·콘솔/이미지 오류 확인.
-- [ ] 같은 환경 전후 20개 화면과 성능 측정치 보고.
-- [ ] 변경 범위 독립 리뷰, 커밋·브랜치 push·PR 생성. 병합·배포하지 않음.
+- [x] Node 테스트·build --check·정적 검증 실행, 새 오류 수정.
+- [x] 실제 브라우저 URL·뒤로가기·키보드·모바일·JS 없는 링크·콘솔/이미지 오류 확인.
+- [x] 같은 환경 전후 20개 화면과 성능 측정치 보고.
+- [ ] 변경 범위 독립 리뷰 완료. 커밋·브랜치 push·PR 생성 결과는 최종 PR에서 확인한다. 병합·배포하지 않음.

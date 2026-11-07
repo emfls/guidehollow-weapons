@@ -65,7 +65,7 @@ if(byId('atlas-form')){
   byId('no-results').hidden=result.total!==0;pagination.hidden=result.total===0;
   pagination.innerHTML=`<button type="button" data-page="${result.page-1}"${result.page===1?' disabled':''}>이전</button><span>${result.page} / ${result.pages} 페이지</span><button type="button" data-page="${result.page+1}"${result.page===result.pages?' disabled':''}>다음</button>`;
   historyURL(C.atlasUrl(state),mode);
-  if(scroll)byId('result-count').scrollIntoView({block:'start'});
+  if(scroll){byId('result-count').focus({preventScroll:true});byId('result-count').scrollIntoView({block:'start'});}
  }
  function change(mode){for(const [key,el] of Object.entries(controls))state[key]=el.value;state.page=1;render(mode);}
  controls.q.addEventListener('input',()=>{change(editing?'replace':'push');editing=true;});
@@ -121,7 +121,7 @@ if(byId('compare-result')){
  }
  byId('swap-compare').addEventListener('click',()=>{for(const prefix of ['','p','q','c'])[state[prefix+'a'],state[prefix+'b']]=[state[prefix+'b'],state[prefix+'a']];for(const side of ['a','b']){elements[side].search.value=state['q'+side];elements[side].category.value=state['c'+side];}render('push');});
  byId('share-compare').addEventListener('click',()=>copy(location.href));
- const restore=()=>{readState();render();};window.addEventListener('popstate',restore);window.addEventListener('pageshow',event=>{if(event.persisted)restore();});
+ const restore=()=>{editing.a=editing.b=false;readState();render();};window.addEventListener('popstate',restore);window.addEventListener('pageshow',event=>{if(event.persisted)restore();});
  restore();
 }
 })();

@@ -36,7 +36,7 @@
     return '/atlas/'+(p.size?'?'+p.toString():'');
   }
   function counts(items){const categories={};for(const item of items)categories[item.category]=(categories[item.category]||0)+1;const illustrated=items.filter(x=>x.illustration).length;return {total:items.length,categories,illustrated,pending:items.length-illustrated};}
-  const FIELD_LABELS={crew:'승무원',combatMass:'전투중량',vehicleMass:'자료상 차량중량',weaponMass:'장비 중량',mainArmament:'주포 구경',enginePower:'엔진 출력',roadSpeed:'포장도로 최고속도',publishedSpeed:'자료 공개 속도 (도로 기준 미기재)',standardTerrainSpeed:'일반 지형 속도',crossCountrySpeed:'험지 속도',length:'길이',width:'차체 너비',span:'날개폭',height:'높이',maxTakeoffMass:'최대이륙중량',manufacturerWeightClass:'제조사 최대중량 등급',maxSpeed:'최고속도',combatRadius:'전투행동반경',range:'항속거리',engineCount:'엔진 수',takeoffMode:'이착륙 방식',caliber:'구경',displacement:'배수량 (기준 미기재)',fullDisplacement:'만재배수량',beam:'함폭',endurance:'체공시간',mission:'체계 역할',components:'구성 장비',operatingSystem:'작동 방식'};
+  const FIELD_LABELS={crew:'승무원',combatMass:'전투중량',vehicleMass:'자료상 차량중량',weaponMass:'장비 중량',mainArmament:'주포 구경',enginePower:'엔진 출력',roadSpeed:'포장도로 최고속도',publishedSpeed:'자료 공개 속도 (도로 기준 미기재)',standardTerrainSpeed:'일반 지형 속도',crossCountrySpeed:'험지 속도',length:'길이',width:'너비',span:'날개폭',height:'높이',maxTakeoffMass:'최대이륙중량',manufacturerWeightClass:'제조사 최대중량 등급',maxSpeed:'최고속도',combatRadius:'전투행동반경',range:'항속거리',engineCount:'엔진 수',takeoffMode:'이착륙 방식',caliber:'구경',displacement:'배수량 (기준 미기재)',fullDisplacement:'만재배수량',beam:'함폭',endurance:'체공시간',mission:'체계 역할',components:'구성 장비',operatingSystem:'작동 방식'};
   const CATEGORY_FIELDS={
     '지상무기':['crew','combatMass','mainArmament','enginePower','roadSpeed','length','width','height'],
     '포병체계':['crew','combatMass','mainArmament','enginePower','roadSpeed'],

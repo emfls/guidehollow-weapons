@@ -307,14 +307,14 @@
           "value": "1",
           "unit": "명",
           "source": "f35-single",
-          "condition": "제조사 형식별 공개 표; F-35A"
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35A"
         },
         "engineCount": {
           "status": "known",
           "value": "1",
           "unit": "기",
           "source": "f35-single",
-          "condition": "제조사 형식별 공개 표; F-35A"
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35A"
         },
         "length": {
           "status": "known",
@@ -391,14 +391,14 @@
           "value": "1",
           "unit": "명",
           "source": "f35-single",
-          "condition": "제조사 형식별 공개 표; F-35B"
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35B"
         },
         "engineCount": {
           "status": "known",
           "value": "1",
           "unit": "기",
           "source": "f35-single",
-          "condition": "제조사 형식별 공개 표; F-35B"
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35B"
         },
         "length": {
           "status": "known",
@@ -473,14 +473,14 @@
           "value": "1",
           "unit": "명",
           "source": "f35-single",
-          "condition": "제조사 형식별 공개 표; F-35C"
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35C"
         },
         "engineCount": {
           "status": "known",
           "value": "1",
           "unit": "기",
           "source": "f35-single",
-          "condition": "제조사 형식별 공개 표; F-35C"
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35C"
         },
         "length": {
           "status": "known",

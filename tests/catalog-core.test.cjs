@@ -41,6 +41,7 @@ test('counts separate public pages and image availability',()=>{
  const c=core.counts(items);assert.equal(c.total,items.length);assert.equal(c.illustrated,items.filter(x=>x.illustration).length);assert.equal(c.pending,items.filter(x=>!x.illustration).length);assert.equal(Object.values(c.categories).reduce((a,b)=>a+b,0),items.length);const extra={...items[0],slug:'fixture-new-entry',category:'추가 분야'};const next=core.counts([...items,extra]);assert.equal(next.total,c.total+1);assert.equal(next.categories['추가 분야'],1);
 });
 test('field aliases preserve measurement meaning',()=>{
+ assert.equal(core.FIELD_LABELS.width,'너비');
  assert.equal(core.fieldId('승무원','지상무기'),'crew');assert.equal(core.fieldId('전투 중량','지상무기'),'combatMass');
  assert.notEqual(core.fieldId('중량','지상무기'),core.fieldId('전투중량','지상무기'));
  assert.notEqual(core.fieldId('전투행동반경','군용항공기'),core.fieldId('항속거리','군용항공기'));

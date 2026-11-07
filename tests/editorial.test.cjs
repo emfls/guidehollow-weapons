@@ -12,6 +12,9 @@ test('variant and measurement boundaries stay explicit',()=>{
  assert.notEqual(p.f35a.fields.takeoffMode.value,p.f35b.fields.takeoffMode.value);assert.notEqual(p.f35b.fields.takeoffMode.value,p.f35c.fields.takeoffMode.value);
  assert.equal(p.f35b.fields.maxTakeoffMass.status,'uncollected');assert.ok(p.f35b.fields.manufacturerWeightClass);
 });
+test('F35 common crew and engine provenance is NAVAIR, not a manufacturer table',()=>{
+ for(const id of ['f35a','f35b','f35c'])for(const key of ['crew','engineCount']){const f=data.profiles[id].fields[key];assert.equal(f.source,'f35-single');assert.ok(f.condition.includes('NAVAIR'));assert.ok(!f.condition.includes('제조사'));}
+});
 test('every article, reference and related entry exists',()=>{
  const slugs=new Set(catalog.map(x=>x.slug));
  for(const [slug,a] of Object.entries(data.articles)){
