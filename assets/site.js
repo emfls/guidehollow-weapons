@@ -39,4 +39,89 @@ const qualityGate=()=>{
   }
 };
 qualityGate();
-const updateCounts=()=>{const total=document.querySelector(".numbers-inner .stat strong");if(total)total.textContent=String(items.length).padStart(2,"0");for(const tile of document.querySelectorAll(".category-tile")){const label=tile.querySelector("span");const digit=tile.querySelector(".category-number");if(label&&digit){const count=items.filter(i=>i.category===label.textContent.trim()).length;const arrow=digit.querySelector("span");digit.textContent=String(count).padStart(2,"0")+" ";if(arrow)digit.appendChild(arrow)}}};updateCounts();const toast=t=>{let e=document.querySelector(".toast");if(!e)return;e.textContent=t;e.classList.add("show");clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>e.classList.remove("show"),2300)};document.querySelectorAll(".copy-link").forEach(b=>b.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(b.dataset.copy);toast("주소를 복사했습니다")}catch(e){toast("주소 복사 기능을 사용할 수 없습니다")}}));const q=byId("atlas-q"),cat=byId("atlas-cat"),country=byId("atlas-country"),stage=byId("atlas-stage");if(q&&cat&&country&&stage){const params=new URLSearchParams(location.search);q.value=params.get("q")||"";cat.value=params.get("category")||"";country.value=params.get("country")||"";stage.value=params.get("stage")||"";const cards=[...document.querySelectorAll("#atlas-grid .weapon-card")];const update=()=>{const term=q.value.toLocaleLowerCase().trim(),c=cat.value,n=country.value,v=stage.value;let num=0;cards.forEach(card=>{const ok=(!term||card.dataset.search.includes(term))&&(!c||card.dataset.category===c)&&(!n||card.dataset.country===n)&&(!v||card.dataset.stage===v);card.hidden=!ok;if(ok)num++});byId("result-count").textContent=num+"개 항목";byId("no-results").hidden=num!==0;const p=new URLSearchParams();if(term)p.set("q",q.value.trim());if(c)p.set("category",c);if(n)p.set("country",n);if(v)p.set("stage",v);history.replaceState(null,"",location.pathname+(p.size?"?"+p.toString():""))};q.addEventListener("input",update);cat.addEventListener("change",update);country.addEventListener("change",update);stage.addEventListener("change",update);byId("clear-filters").addEventListener("click",()=>{q.value="";cat.value="";country.value="";stage.value="";update();q.focus()});update()}const a=byId("compare-a"),b=byId("compare-b"),out=byId("compare-result");if(a&&b&&out){for(const sel of [a,b]){const have=new Set([...sel.options].map(o=>o.value));for(const item of items){if(!have.has(item.slug)){const option=document.createElement("option");option.value=item.slug;option.textContent=item.name+" · "+item.category;sel.appendChild(option)}}}const p=new URLSearchParams(location.search);a.value=items.some(i=>i.slug===p.get("a"))?p.get("a"):items[0].slug;b.value=items.some(i=>i.slug===p.get("b"))?p.get("b"):items[1].slug;const safe=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));const media=i=>{if(i.illustration)return '<figure class="compare-photo"><img src="/assets/illustrations/'+safe(i.slug)+'.webp" alt="'+safe(i.illustration.alt)+'" loading="lazy"/><figcaption><a href="/weapons/'+safe(i.slug)+'/#photo-credit">실물 사진 기반 AI 일러스트 · 참고 사진 '+safe(i.illustration.credit)+'</a></figcaption></figure>';return '<div class="compare-image-pending" role="img" aria-label="'+safe(i.name)+' 도감 일러스트 준비 중">도감 일러스트 준비 중</div>'};const cell=(s,type)=>'<div class="'+type+'">'+safe(s||"정보 확인 필요")+"</div>";function draw(){let x=items.find(i=>i.slug===a.value),y=items.find(i=>i.slug===b.value);if(!x||!y)return;const rows=[["대상",x.name,y.name],["영문명",x.english,y.english],["분야",x.category,y.category],["유형",x.type,y.type],["국가",x.country,y.country],["시대",x.period,y.period],["제조·관련 기관",x.maker,y.maker],["핵심 설명",x.summary,y.summary]];const keys=[...new Set([...Object.keys(x.facts),...Object.keys(y.facts)])];keys.forEach(k=>rows.push([k,x.facts[k]||"—",y.facts[k]||"—"]));out.innerHTML='<div class="comparison-table">'+rows.map((r,i)=>cell(r[0],"label")+ (i===0?'<div class="value head compare-weapon-head">' + media(x) + '<a href="/weapons/'+x.slug+'/">'+safe(x.name)+'</a></div><div class="value head compare-weapon-head">' + media(y) + '<a href="/weapons/'+y.slug+'/">'+safe(y.name)+"</a></div>":cell(r[1],"value")+cell(r[2],"value"))).join("")+"</div>";const url=new URL(location.href);url.searchParams.set("a",x.slug);url.searchParams.set("b",y.slug);history.replaceState(null,"",url.pathname+url.search)}a.addEventListener("change",draw);b.addEventListener("change",draw);byId("swap-compare").addEventListener("click",()=>{const tmp=a.value;a.value=b.value;b.value=tmp;draw()});draw()}})();
+const C=window.GHCore;
+if(!C)return;
+const e=C.escapeHTML;
+const toast=text=>{const el=document.querySelector('.toast');if(!el)return;el.textContent=text;el.classList.add('show');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>el.classList.remove('show'),2300);};
+const copy=async text=>{try{await navigator.clipboard.writeText(text);toast('주소를 복사했습니다');}catch{toast('주소 복사를 사용할 수 없습니다. 주소창의 링크를 복사해 주세요.');}};
+document.querySelectorAll('.copy-link').forEach(button=>button.addEventListener('click',()=>copy(button.dataset.copy)));
+const historyURL=(url,mode)=>{if(location.pathname+location.search!==url)history[mode==='push'?'pushState':'replaceState']({gh:true},'',url);};
+
+if(byId('atlas-form')){
+ const controls={q:byId('atlas-q'),category:byId('atlas-cat'),country:byId('atlas-country'),image:byId('atlas-image'),sort:byId('atlas-sort')};
+ const grid=byId('atlas-grid'),pagination=byId('atlas-pagination');
+ let state=C.readAtlasState(location.search,items),editing=false;
+ function restoreControls(){
+  if(state.country&&!Array.from(controls.country.options).some(x=>x.value===state.country)){
+   const option=document.createElement('option');option.value=state.country;option.textContent=state.country+' (함께 관련)';controls.country.append(option);
+  }
+  for(const [key,el] of Object.entries(controls))el.value=state[key];
+ }
+ function render(mode='replace',scroll=false){
+  const result=C.selectCatalog(items,state);state.page=result.page;
+  grid.setAttribute('aria-busy','true');grid.innerHTML=result.items.map((item,i)=>C.card(item,i===0)).join('');grid.setAttribute('aria-busy','false');
+  byId('result-count').textContent=result.total+'개 항목'+(result.total?' · '+result.start+'–'+result.end:'');
+  byId('filter-summary').textContent=[state.q?'검색: '+state.q:'',state.category,state.country?state.country+' 관련':'',state.image==='ready'?'일러스트 있음':state.image==='pending'?'이미지 자료 확인 중':'',state.sort==='name'?'이름 가나다순':'대표 기종·이미지 우선'].filter(Boolean).join(' · ');
+  byId('no-results').hidden=result.total!==0;pagination.hidden=result.total===0;
+  pagination.innerHTML=`<button type="button" data-page="${result.page-1}"${result.page===1?' disabled':''}>이전</button><span>${result.page} / ${result.pages} 페이지</span><button type="button" data-page="${result.page+1}"${result.page===result.pages?' disabled':''}>다음</button>`;
+  historyURL(C.atlasUrl(state),mode);
+  if(scroll)byId('result-count').scrollIntoView({block:'start'});
+ }
+ function change(mode){for(const [key,el] of Object.entries(controls))state[key]=el.value;state.page=1;render(mode);}
+ controls.q.addEventListener('input',()=>{change(editing?'replace':'push');editing=true;});
+ controls.q.addEventListener('change',()=>{editing=false;});
+ for(const [key,el] of Object.entries(controls))if(key!=='q')el.addEventListener('change',()=>{editing=false;change('push');});
+ byId('atlas-form').addEventListener('submit',event=>{event.preventDefault();change('push');});
+ byId('clear-filters').addEventListener('click',()=>{state=C.readAtlasState('',items);restoreControls();editing=false;render('push');controls.q.focus();});
+ pagination.addEventListener('click',event=>{const button=event.target.closest('button[data-page]');if(!button||button.disabled)return;state.page=Number(button.dataset.page);render('push',true);});
+ const restore=()=>{state=C.readAtlasState(location.search,items);editing=false;restoreControls();render();};
+ window.addEventListener('popstate',restore);window.addEventListener('pageshow',event=>{if(event.persisted)restore();});
+ restoreControls();render();
+}
+
+if(byId('compare-result')){
+ const data=window.GH_EDITORIAL||{profiles:{},sources:{}};
+ const defaults={a:'k2-black-panther',b:'m1-abrams'};
+ const elements=Object.fromEntries(['a','b'].map(side=>[side,{search:byId('compare-search-'+side),category:byId('compare-cat-'+side),select:byId('compare-'+side),profile:byId('compare-profile-'+side),count:byId('compare-count-'+side)}]));
+ let state={},editing={a:false,b:false};
+ function readState(){
+  const p=new URLSearchParams(location.search);state={};
+  for(const side of ['a','b']){
+   state[side]=items.some(x=>x.slug===p.get(side))?p.get(side):defaults[side];
+   state['p'+side]=p.get('p'+side)||'';state['q'+side]=(p.get('q'+side)||'').slice(0,200);
+   state['c'+side]=items.some(x=>x.category===p.get('c'+side))?p.get('c'+side):'';
+   elements[side].search.value=state['q'+side];elements[side].category.value=state['c'+side];
+  }
+ }
+ function populate(side){
+  const el=elements[side],selected=items.find(x=>x.slug===state[side]);
+  const found=C.filterCatalog(items,{q:state['q'+side],category:state['c'+side]}).slice().sort((a,b)=>a.name.localeCompare(b.name,'ko'));
+  const options=found.map(x=>`<option value="${x.slug}">${e(x.name)}</option>`).join('');
+  el.select.innerHTML=found.some(x=>x.slug===selected.slug)?options:`<optgroup label="현재 선택"><option value="${selected.slug}">${e(selected.name)}</option></optgroup><optgroup label="검색 결과">${options}</optgroup>`;
+  el.select.value=selected.slug;el.count.textContent=found.length+'개 기종 일치'+(!found.some(x=>x.slug===selected.slug)?' · 현재 선택은 유지됩니다':'');
+  const ids=selected.profileIds||[];
+  el.profile.innerHTML=ids.length?ids.map(id=>`<option value="${e(id)}">${e(data.profiles[id].label)}</option>`).join(''):'<option value="">형식별 제원 미수집</option>';
+  if(!ids.includes(state['p'+side]))state['p'+side]=ids[0]||'';
+  el.profile.value=state['p'+side];el.profile.disabled=!ids.length;
+ }
+ function render(mode='replace'){
+  for(const side of ['a','b'])populate(side);
+  const a=items.find(x=>x.slug===state.a),b=items.find(x=>x.slug===state.b);
+  byId('compare-result').innerHTML=C.renderComparison(a,b,state.pa,state.pb,data);
+  const p=new URLSearchParams();for(const key of ['a','b','pa','pb','qa','qb','ca','cb'])if(state[key])p.set(key,state[key]);
+  historyURL('/compare/?'+p.toString(),mode);
+ }
+ for(const side of ['a','b']){
+  const el=elements[side];
+  el.search.addEventListener('input',()=>{state['q'+side]=el.search.value;render(editing[side]?'replace':'push');editing[side]=true;});
+  el.search.addEventListener('change',()=>{editing[side]=false;});
+  el.category.addEventListener('change',()=>{state['c'+side]=el.category.value;render('push');});
+  el.select.addEventListener('change',()=>{state[side]=el.select.value;state['p'+side]='';render('push');});
+  el.profile.addEventListener('change',()=>{state['p'+side]=el.profile.value;render('push');});
+ }
+ byId('swap-compare').addEventListener('click',()=>{for(const prefix of ['','p','q','c'])[state[prefix+'a'],state[prefix+'b']]=[state[prefix+'b'],state[prefix+'a']];for(const side of ['a','b']){elements[side].search.value=state['q'+side];elements[side].category.value=state['c'+side];}render('push');});
+ byId('share-compare').addEventListener('click',()=>copy(location.href));
+ const restore=()=>{readState();render();};window.addEventListener('popstate',restore);window.addEventListener('pageshow',event=>{if(event.persisted)restore();});
+ restore();
+}
+})();
