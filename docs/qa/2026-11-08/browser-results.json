@@ -1,0 +1,162 @@
+{
+  "timestamp": "2026-11-07T21:32:28.083Z",
+  "baseline": "e7ad202dc1f983008963bc57d390ef29cd260ca4",
+  "cases": [
+    {
+      "name": "337 comparison choices; sourced profiles are grouped first",
+      "status": "pass"
+    },
+    {
+      "name": "profile filter keeps the current pair and existing table",
+      "status": "pass"
+    },
+    {
+      "name": "profile filter is restored by reload and Back/Forward",
+      "status": "pass"
+    },
+    {
+      "name": "search and profile scope intersect, preserving open basic information",
+      "status": "pass"
+    },
+    {
+      "name": "variant selection updates the comparison and URL",
+      "status": "pass"
+    },
+    {
+      "name": "zero search results keep equipment and reset restores focus and filters",
+      "status": "pass"
+    },
+    {
+      "name": "selection outside profile filter remains available exactly once",
+      "status": "pass"
+    },
+    {
+      "name": "swap and shared URL retain side-specific filters and variants",
+      "status": "pass"
+    },
+    {
+      "name": "responsive comparison 360px: no outer overflow, 44px label/button targets",
+      "status": "pass"
+    },
+    {
+      "name": "responsive comparison 390px: no outer overflow, 44px label/button targets",
+      "status": "pass"
+    },
+    {
+      "name": "responsive comparison 768px: no outer overflow, 44px label/button targets",
+      "status": "pass"
+    },
+    {
+      "name": "responsive comparison 1440px: no outer overflow, 44px label/button targets",
+      "status": "pass"
+    },
+    {
+      "name": "profile scope is operable from keyboard",
+      "status": "pass"
+    },
+    {
+      "name": "home and detail no longer request catalog assets",
+      "status": "pass"
+    },
+    {
+      "name": "detail permalink copy works with no catalog scripts",
+      "status": "pass"
+    },
+    {
+      "name": "home search still navigates and filters the atlas",
+      "status": "pass"
+    },
+    {
+      "name": "atlas pagination retains keyboard focus and history",
+      "status": "pass"
+    },
+    {
+      "name": "without JavaScript the atlas offers all 337 links and hides inactive controls",
+      "status": "pass"
+    },
+    {
+      "name": "without JavaScript the default comparison remains readable without inactive controls",
+      "status": "pass"
+    },
+    {
+      "name": "no page errors or console errors in tested flows",
+      "status": "pass"
+    }
+  ],
+  "screens": [
+    "after-compare-360.png",
+    "after-compare-390.png",
+    "after-compare-768.png",
+    "after-compare-1440.png",
+    "after-profile-filter-390.png",
+    "before-compare-390.png",
+    "before-compare-1440.png",
+    "after-nojs-atlas-390.png",
+    "after-nojs-compare-390.png"
+  ],
+  "scriptRequests": [
+    {
+      "label": "before",
+      "route": "/",
+      "scripts": [
+        {
+          "path": "/assets/catalog-core.js",
+          "fileBytes": 11256
+        },
+        {
+          "path": "/assets/catalog.js",
+          "fileBytes": 271755
+        },
+        {
+          "path": "/assets/site.js",
+          "fileBytes": 9260
+        }
+      ],
+      "requestedFileBytes": 292271
+    },
+    {
+      "label": "before",
+      "route": "/weapons/k9-thunder/",
+      "scripts": [
+        {
+          "path": "/assets/catalog-core.js",
+          "fileBytes": 11256
+        },
+        {
+          "path": "/assets/catalog.js",
+          "fileBytes": 271755
+        },
+        {
+          "path": "/assets/site.js",
+          "fileBytes": 9260
+        }
+      ],
+      "requestedFileBytes": 292271
+    },
+    {
+      "label": "after",
+      "route": "/",
+      "scripts": [
+        {
+          "path": "/assets/site.js",
+          "fileBytes": 9849
+        }
+      ],
+      "requestedFileBytes": 9849
+    },
+    {
+      "label": "after",
+      "route": "/weapons/k9-thunder/",
+      "scripts": [
+        {
+          "path": "/assets/site.js",
+          "fileBytes": 9849
+        }
+      ],
+      "requestedFileBytes": 9849
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.0",
+  "environment": "Linux headless Chromium, local HTTP, no throttling, cache disabled"
+}

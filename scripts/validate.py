@@ -47,6 +47,10 @@ for route,p in pages.items():
     assert sum(t=='h1' for t,a in p.tags)==1,route
     assert any(t=='meta' and a.get('name')=='naver-site-verification' and a.get('content')=='5de654028d35e953db53c015396e799f5c7ae12d' for t,a in p.tags),route
     assert [a.get('href') for t,a in p.tags if t=='link' and a.get('rel')=='canonical']==['https://'+host+route],route
+    scripts=[urlsplit(a['src']).path for t,a in p.tags if t=='script' and a.get('src')]
+    for asset in ['catalog-core.js','catalog.js']:
+        assert scripts.count('/assets/'+asset)==int(route in ['/atlas/','/compare/']),(route,'page-specific script',asset)
+    assert scripts.count('/assets/site.js')==int(route!='/motion/'),(route,'shared page interactions')
     for tag,a in p.tags:
         key={'a':'href','script':'src','img':'src','link':'href'}.get(tag)
         if not key or not a.get(key):continue

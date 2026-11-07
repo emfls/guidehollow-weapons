@@ -39,12 +39,12 @@ const qualityGate=()=>{
   }
 };
 qualityGate();
-const C=window.GHCore;
-if(!C)return;
-const e=C.escapeHTML;
 const toast=text=>{const el=document.querySelector('.toast');if(!el)return;el.textContent=text;el.classList.add('show');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>el.classList.remove('show'),2300);};
 const copy=async text=>{try{await navigator.clipboard.writeText(text);toast('주소를 복사했습니다');}catch{toast('주소 복사를 사용할 수 없습니다. 주소창의 링크를 복사해 주세요.');}};
 document.querySelectorAll('.copy-link').forEach(button=>button.addEventListener('click',()=>copy(button.dataset.copy)));
+const C=window.GHCore;
+if(!C)return;
+const e=C.escapeHTML;
 const historyURL=(url,mode)=>{if(location.pathname+location.search!==url)history[mode==='push'?'pushState':'replaceState']({gh:true},'',url);};
 
 if(byId('atlas-form')){
@@ -82,23 +82,25 @@ if(byId('atlas-form')){
 if(byId('compare-result')){
  const data=window.GH_EDITORIAL||{profiles:{},sources:{}};
  const defaults={a:'k2-black-panther',b:'m1-abrams'};
- const elements=Object.fromEntries(['a','b'].map(side=>[side,{search:byId('compare-search-'+side),category:byId('compare-cat-'+side),select:byId('compare-'+side),profile:byId('compare-profile-'+side),count:byId('compare-count-'+side)}]));
- let state={},editing={a:false,b:false};
+ const elements=Object.fromEntries(['a','b'].map(side=>[side,{search:byId('compare-search-'+side),category:byId('compare-cat-'+side),ready:byId('compare-ready-'+side),reset:byId('compare-reset-'+side),select:byId('compare-'+side),profile:byId('compare-profile-'+side),count:byId('compare-count-'+side)}]));
+ let state={},editing={a:false,b:false},renderedPair='';
  function readState(){
   const p=new URLSearchParams(location.search);state={};
   for(const side of ['a','b']){
    state[side]=items.some(x=>x.slug===p.get(side))?p.get(side):defaults[side];
    state['p'+side]=p.get('p'+side)||'';state['q'+side]=(p.get('q'+side)||'').slice(0,200);
    state['c'+side]=items.some(x=>x.category===p.get('c'+side))?p.get('c'+side):'';
+   state['r'+side]=p.get('r'+side)==='1';
    elements[side].search.value=state['q'+side];elements[side].category.value=state['c'+side];
+   elements[side].ready.checked=state['r'+side];
   }
  }
  function populate(side){
   const el=elements[side],selected=items.find(x=>x.slug===state[side]);
-  const found=C.filterCatalog(items,{q:state['q'+side],category:state['c'+side]}).slice().sort((a,b)=>a.name.localeCompare(b.name,'ko'));
-  const options=found.map(x=>`<option value="${x.slug}">${e(x.name)}</option>`).join('');
-  el.select.innerHTML=found.some(x=>x.slug===selected.slug)?options:`<optgroup label="현재 선택"><option value="${selected.slug}">${e(selected.name)}</option></optgroup><optgroup label="검색 결과">${options}</optgroup>`;
+  const found=C.filterCatalog(items,{q:state['q'+side],category:state['c'+side]}).filter(x=>!state['r'+side]||x.profileIds?.length);
+  el.select.innerHTML=C.comparisonOptions(found,selected);
   el.select.value=selected.slug;el.count.textContent=found.length+'개 기종 일치'+(!found.some(x=>x.slug===selected.slug)?' · 현재 선택은 유지됩니다':'');
+  el.reset.disabled=!state['q'+side]&&!state['c'+side]&&!state['r'+side];
   const ids=selected.profileIds||[];
   el.profile.innerHTML=ids.length?ids.map(id=>`<option value="${e(id)}">${e(data.profiles[id].label)}</option>`).join(''):'<option value="">형식별 제원 미수집</option>';
   if(!ids.includes(state['p'+side]))state['p'+side]=ids[0]||'';
@@ -107,19 +109,22 @@ if(byId('compare-result')){
  function render(mode='replace'){
   for(const side of ['a','b'])populate(side);
   const a=items.find(x=>x.slug===state.a),b=items.find(x=>x.slug===state.b);
-  byId('compare-result').innerHTML=C.renderComparison(a,b,state.pa,state.pb,data);
-  const p=new URLSearchParams();for(const key of ['a','b','pa','pb','qa','qb','ca','cb'])if(state[key])p.set(key,state[key]);
+  const pair=JSON.stringify([state.a,state.b,state.pa,state.pb]);
+  if(pair!==renderedPair){byId('compare-result').innerHTML=C.renderComparison(a,b,state.pa,state.pb,data);renderedPair=pair;}
+  const p=new URLSearchParams();for(const key of ['a','b','pa','pb','qa','qb','ca','cb','ra','rb'])if(state[key])p.set(key,state[key]===true?'1':state[key]);
   historyURL('/compare/?'+p.toString(),mode);
  }
  for(const side of ['a','b']){
   const el=elements[side];
   el.search.addEventListener('input',()=>{state['q'+side]=el.search.value;render(editing[side]?'replace':'push');editing[side]=true;});
   el.search.addEventListener('change',()=>{editing[side]=false;});
-  el.category.addEventListener('change',()=>{state['c'+side]=el.category.value;render('push');});
-  el.select.addEventListener('change',()=>{state[side]=el.select.value;state['p'+side]='';render('push');});
-  el.profile.addEventListener('change',()=>{state['p'+side]=el.profile.value;render('push');});
+  el.category.addEventListener('change',()=>{editing[side]=false;state['c'+side]=el.category.value;render('push');});
+  el.ready.addEventListener('change',()=>{editing[side]=false;state['r'+side]=el.ready.checked;render('push');});
+  el.reset.addEventListener('click',()=>{editing[side]=false;state['q'+side]='';state['c'+side]='';state['r'+side]=false;el.search.value='';el.category.value='';el.ready.checked=false;render('push');el.search.focus();});
+  el.select.addEventListener('change',()=>{editing[side]=false;state[side]=el.select.value;state['p'+side]='';render('push');});
+  el.profile.addEventListener('change',()=>{editing[side]=false;state['p'+side]=el.profile.value;render('push');});
  }
- byId('swap-compare').addEventListener('click',()=>{for(const prefix of ['','p','q','c'])[state[prefix+'a'],state[prefix+'b']]=[state[prefix+'b'],state[prefix+'a']];for(const side of ['a','b']){elements[side].search.value=state['q'+side];elements[side].category.value=state['c'+side];}render('push');});
+ byId('swap-compare').addEventListener('click',()=>{for(const prefix of ['','p','q','c','r'])[state[prefix+'a'],state[prefix+'b']]=[state[prefix+'b'],state[prefix+'a']];for(const side of ['a','b']){editing[side]=false;elements[side].search.value=state['q'+side];elements[side].category.value=state['c'+side];elements[side].ready.checked=state['r'+side];}render('push');});
  byId('share-compare').addEventListener('click',()=>copy(location.href));
  const restore=()=>{editing.a=editing.b=false;readState();render();};window.addEventListener('popstate',restore);window.addEventListener('pageshow',event=>{if(event.persisted)restore();});
  restore();

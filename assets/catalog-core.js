@@ -63,6 +63,13 @@
   }
   const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const e=escapeHTML;
+  function comparisonOptions(items,selected){
+    const sorted=items.slice().sort((a,b)=>a.name.localeCompare(b.name,'ko')||a.slug.localeCompare(b.slug));
+    const ready=sorted.filter(x=>x.profileIds?.length),basic=sorted.filter(x=>!x.profileIds?.length);
+    const option=x=>`<option value="${e(x.slug)}"${x.slug===selected?.slug?' selected':''}>${e(x.name)}</option>`;
+    const group=(label,rows)=>rows.length?`<optgroup label="${label}">${rows.map(option).join('')}</optgroup>`:'';
+    return (selected&&!sorted.some(x=>x.slug===selected.slug)?group('현재 선택 · 검색 조건 밖',[selected]):'')+group('형식별 제원 있음',ready)+group('기본 정보 · 형식별 제원 미수집',basic);
+  }
   function media(item,eager=false){
     if(!item.illustration)return '<span class="compact-status">일러스트 자료 확인 중</span>';
     const im=item.illustration;
@@ -92,6 +99,6 @@
     const note=a.category!==b.category?'서로 다른 분야입니다. 역할과 측정 기준이 달라 수치의 우열을 판단할 수 없습니다.':a.type!==b.type?'같은 분야라도 역할·형식·측정 조건이 다를 수 있습니다.':'같은 역할의 장비도 형식·단위·측정 조건을 함께 확인하세요.';
     return `<p class="comparison-note">${note} 미수집은 자료 미확보, 비공개는 출처의 비공개 명시, 해당 없음은 적용되지 않는 항목입니다.</p><div class="comparison-scroll" role="region" aria-label="제원 비교표, 필요하면 영역 안에서 가로 스크롤" tabindex="0"><table class="spec-table"><caption>${e(a.name)} / ${e(b.name)} · 형식별 공개 자료 비교<small class="table-scroll-hint">표 영역을 좌우로 밀어 두 대상의 값을 확인하세요.</small></caption><thead><tr><th scope="col">항목</th>${heads}</tr></thead>${group('양쪽에 직접 출처가 연결된 항목',rows.shared,'shared')}${group('한쪽 자료·추가 조건·미수집 항목',rows.other,'other')}</table></div>${[a,b].map(item=>`<details class="legacy-facts"><summary>${e(item.name)}의 기존 기본 정보</summary><p>아래 정보는 형식별 직접 출처와 연결되기 전의 기본 분류입니다. 수치 비교 항목으로 합치지 않습니다.</p><dl>${Object.entries(item.facts).map(([k,v])=>`<dt>${e(k)}</dt><dd>${e(v)}</dd>`).join('')}</dl></details>`).join('')}`;
   }
-  const api={PAGE_SIZE,normalizeSearch,queryTokens,countryTokens,relatedCountries,countries,filterCatalog,selectCatalog,readAtlasState,atlasUrl,counts,fieldId,FIELD_LABELS,CATEGORY_FIELDS,comparisonRows,escapeHTML,card,media,profileFor,fieldHTML,renderComparison};
+  const api={PAGE_SIZE,normalizeSearch,queryTokens,countryTokens,relatedCountries,countries,filterCatalog,selectCatalog,readAtlasState,atlasUrl,counts,fieldId,FIELD_LABELS,CATEGORY_FIELDS,comparisonRows,escapeHTML,comparisonOptions,card,media,profileFor,fieldHTML,renderComparison};
   if(typeof module==='object'&&module.exports)module.exports=api;else root.GHCore=api;
 })(typeof globalThis!=='undefined'?globalThis:this);
