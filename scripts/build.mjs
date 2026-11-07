@@ -91,6 +91,12 @@ for(const item of items){
   const re=new RegExp('<meta\\b(?=[^>]*'+attr+'="'+tag+'")[^>]*>');
   html=html.replace(re,`<meta ${attr}="${tag}" content="${e(value)}">`);
  }
+ let hasOgType=false;
+ html=html.replace(/<meta\b(?=[^>]*\sproperty\s*=\s*(["'])og:type\1)[^>]*>/gi,tag=>{
+  if(hasOgType)return '';
+  hasOgType=true;return /\scontent\s*=\s*(["'])article\1/.test(tag)?tag:'<meta property="og:type" content="article">';
+ });
+ if(!hasOgType)html=html.replace('</head>','<meta property="og:type" content="article"></head>');
  if(item.illustration&&!html.includes('property="og:image"'))html=html.replace('</head>',`<meta property="og:image" content="https://weapons.guidehollow.com/assets/illustrations/${item.slug}.webp"></head>`);
  const url='https://weapons.guidehollow.com/weapons/'+item.slug+'/';
  const structured={'@context':'https://schema.org','@graph':[{'@type':'TechArticle',headline:item.name,description,url,mainEntityOfPage:url,...(item.illustration?{image:'https://weapons.guidehollow.com/assets/illustrations/'+item.slug+'.webp'}:{}),...(editorial.articles[item.slug]?{dateModified:editorial.reviewDate}:{})},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'홈',item:'https://weapons.guidehollow.com/'},{'@type':'ListItem',position:2,name:'무기 도감',item:'https://weapons.guidehollow.com/atlas/'},{'@type':'ListItem',position:3,name:item.name,item:url}]}]};

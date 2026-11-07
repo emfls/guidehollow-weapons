@@ -7,16 +7,16 @@
 
 - `data/catalog.json`, `assets/catalog-core.js`, `scripts/build.mjs`, `templates/home.html`: 공개 337종·분야 합계·홈·정적 목록을 같은 데이터에서 생성한다. 초기 24개 페이지 분할, 337개 정적 이름 링크, 작은 이미지 대기 카드, 대표 기종·이미지 우선/이름순을 적용했다.
 - `assets/site.js`: 모델 표기 정규화, 한국어·영문·slug·기존 별칭 검색, 명시된 관련 국가 집합, 검색·필터·정렬·페이지 URL 및 뒤로가기 복원. 관련 국가를 개발국으로 재분류하지 않는다.
-- `data/editorial.json`, M1/F-35 본문, `assets/editorial.js`: 직접 확인한 공식 자료 17개와 형식별 프로필 7개. K2, 미군/호주군 M1A2 SEPv3, F-35A/B/C, K9 기본형을 구분하며 본문과 비교에서 같은 프로필을 사용한다. 나머지 335개 본문 main은 기준 커밋과 바이트 동일하다.
+- `data/editorial.json`, M1/F-35 본문, `assets/editorial.js`: 직접 확인한 공식 자료 17개와 형식별 프로필 7개. K2, 미군/호주군 M1A2 SEPv3, F-35A/B/C, K9 기본형을 구분하며 본문과 비교에서 같은 프로필을 사용한다. 추가 리뷰에서 9편의 이미지 안내도 수정했다. 최종적으로 326개 본문 main은 기준 커밋과 바이트 동일하며, 변경된 11편은 M1/F-35 보강 2편과 이미지 안내 9편이다.
 - `assets/style.css`, 홈·목록·비교·대표 본문: 기존 네이비·민트와 contain 이미지를 유지한다. AI 이미지 표기·크레딧, 접는 필터, 44px 조작 목표, 포커스, 의미 있는 표와 표 영역 내부 가로 스크롤을 적용했다.
 - 전체 343개 HTML: 공유 에셋 해시, 일관된 상세 메타, 실제 보이는 내용에 맞는 TechArticle/BreadcrumbList. 작성자·최초 발행일을 만들어 넣지 않았다. 기존 335개 본문의 자료 검토일을 보존하고 실제 검토한 대표 2개만 갱신했다.
 - `tests/`, `scripts/validate.py`, `.github/workflows/quality.yml`: 회귀·정적·생성물 일치 검사. 기존 main 배포 워크플로·CNAME·robots·사이트맵·265개 이미지 바이너리는 변경하지 않았다.
 
 ## 실제 실행한 검증
 
-- `node --test tests/*.test.cjs`: **21/21 PASS**. 검색·국가·URL·분할·새 항목 개수·형식/측정 기준·출처·페이지 초점·비교 뒤로가기 회귀.
+- `node --test tests/*.test.cjs`: **28/28 PASS**. 검색·국가·URL·분할·새 항목 개수·형식/측정 기준·출처·페이지 초점·비교 뒤로가기 및 상세 OG/이미지 안내 회귀.
 - `node scripts/build.mjs --check`: **345개 생성 파일 일치**.
-- `python3 scripts/validate.py`: **343경로·337페이지·265이미지**, 정적 링크·메타·출처·검토일·공유 에셋 해시 PASS. JS 문법·Git 공백 검사 PASS.
+- `python3 scripts/validate.py`: **343경로·337페이지·265이미지**, 정적 링크·메타·출처·검토일·공유 에셋 해시 PASS. 모든 상세의 단일 `og:type=article`, canonical·OG URL/이미지·구조화 데이터 일치 확인. JS 문법·Git 공백 검사 PASS.
 - 실제 Chrome 기능 검증 **35건 PASS**: 검색 표기, 국가·이미지·분야, 초기화, 복합 국가의 옛 URL, 페이지 2→상세→뒤로가기, 검색 popstate, 비교 검색·형식·교환·공유·새로고침, 키보드, JavaScript 비활성 상태의 337개 링크와 실제 클릭. 기록: [functional-browser.json](functional-browser.json).
 - 독립 리뷰의 키보드 초점·비교 기록 문제를 실제 브라우저에서 재현한 뒤 수정했다. 기록: [수정 전](review-regressions-before.json) / [수정 후](review-regressions-after.json).
 - 360/390/768/1440px, 5개 대표 화면 총 **20화면**: 바깥 가로 넘침 0, 콘솔·이미지 오류 0. 360/390px의 측정 대상 주요 조작 요소 44px 미달 0. 모바일 표의 고정 항목명과 한 대상 셀이 함께 완전히 들어오는 너비, 키보드 가로 스크롤 확인.
@@ -53,7 +53,7 @@
 
 ## 측정 환경과 결과
 
-로컬 macOS Chrome 154, 동일 브라우저·CPU, HTTP localhost의 변경 전 8767/변경 후 8768 포트, 1440×900, 배율 1. 캐시 비활성, 네트워크·CPU 인위 제한 없음. 첫 뷰포트 이미지가 로드된 뒤 한 번 관측했다. HTML은 실제 파일 바이트, DOM·그림 요청/전송량은 브라우저 실측이다. 리뷰 후 의미·기록 수정은 노드/그림 구성을 바꾸지 않았으며 HTML 크기는 최종 파일 기준이다. 공개 HTTPS 서버 속도·LCP·CWV 개선으로 일반화하지 않는다.
+로컬 macOS Chrome 154, 동일 브라우저·CPU, HTTP localhost의 변경 전 8767/변경 후 8768 포트, 1440×900, 배율 1. 캐시 비활성, 네트워크·CPU 인위 제한 없음. 첫 뷰포트 이미지가 로드된 뒤 한 번 관측했다. 아래 값은 추가 OG/이미지 안내 리뷰 전 커밋 `8d5a5d3`까지의 초기 PR 측정 기록이다. HTML은 당시 실제 파일 바이트, DOM·그림 요청/전송량은 브라우저 실측이며 이번 문구 보완의 성능 재측정 결과는 아니다. 공개 HTTPS 서버 속도·LCP·CWV 개선으로 일반화하지 않는다.
 
 | 페이지 | DOM 전→후 | HTML바이트 전→후 | 초기 그림요청 전→후 | 초기 그림전송바이트 전→후 |
 |---|---:|---:|---:|---:|
@@ -64,6 +64,19 @@
 | F-35 | 193 → 503 | 10,555 → 33,294 | 1 → 1 | 18,916 → 18,916 |
 
 도감 HTML·DOM은 줄었지만 첫 화면에서 볼 수 있는 준비된 그림이 늘면서 이 실측의 그림 전송량은 증가했다. 비교·대표글은 출처가 있는 정적 표·본문이 추가되어 HTML이 증가했다. 전체 속도가 빨라졌다고 주장하지 않는다. 원자료: [performance-summary.json](performance-summary.json), [before-browser.json](before-browser.json), [after-browser.json](after-browser.json).
+
+## 추가 리뷰: 상세 OG와 이미지 안내
+
+검토 기준 `8d5a5d3e97a302da2a93b5a48cfedd7da2c6288a`에서 두 누락을 먼저 재현했다. 상세 337편 중 13편의 OG type이 `website`였고, K9는 상단 AI 일러스트를 국군 공개 사진으로 잘못 설명했다.
+
+- `scripts/build.mjs`: 기존 상세도 OG type을 `article`로 갱신하며 누락 태그를 추가하고 중복을 제거한다. 기존의 정상 태그는 그대로 유지한다. 속성 순서와 작은따옴표를 포함한 실제 생성 회귀 3개를 추가했다.
+- `scripts/validate.py`: 모든 공개 상세의 `og:type`이 정확히 하나이고 `article`인지 검사하며 canonical·OG URL·OG 이미지·TechArticle URL/이미지 일치도 검사한다. 별도 임시 복사본의 누락·중복·website 세 경우가 모두 해당 검사에서 거부됐다: [음성 검증 기록](og-validator-negative.json).
+- 이미지 안내 변경 9편: K9, FA-50, K21, K55A1, KF-21, KT-1, LAH, M109, T-50. 현재 AI 일러스트와 참고 원본을 구분하고 실제 `photo-credit`으로 연결했다. K9는 `권순삼 / 국방시민연대 · CC BY-SA 2.0 KR`로 일치시켰다. M109의 본문 첫 문장과 오래된 제작 전달사항, T-50/KT-1의 제작 대기 문구도 정리했다. KT-1의 카탈로그 검토 메모도 같은 범위로 수정했다.
+- 다른 6편의 정상 이미지 안내와 K1A의 전시 사진 설명은 보존했다. 전체 문서 검색과 안내별 전후·수정/보존 판단: [이미지 안내 점검 기록](image-notice-audit.json).
+- 기준 리뷰 커밋 대비 본문 변경은 위 9편뿐이다. 전체 337편의 canonical·OG URL/이미지·구조화 데이터 값과 자료 검토 날짜는 유지됐다. 이번 변경은 이미지 표시 안내 점검이며 무기 제원·역사 자료의 신규 사실검증으로 날짜를 갱신하지 않았다.
+- 실제 Chrome에서 수정 9편의 표시 문구·참고 크레딧·OG type을 확인했다: [브라우저 기록](image-notice-browser.json). 페이지별 1440px 화면은 `screenshots/followup-<slug>-1440.png`에 있다. K9 [1440px](screenshots/followup-k9-thunder-1440.png) / [390px](screenshots/followup-k9-thunder-390.png)에서도 문구가 표시되며 모바일 바깥 가로 넘침은 0이다.
+- 새 회귀 7개 중 수정 전 6개 실패·메타 보존 1개 통과를 확인했고, 수정 후 기존 회귀 포함 **28/28**, 생성물 **345개 일치**, 정적 검증 **343경로 PASS**를 확인했다. 최종 커밋과 해당 CI 링크는 [PR 설명](https://github.com/emfls/guidehollow-weapons/pull/20)에 기록한다.
+- 후속 변경의 독립 코드 리뷰에서도 같은 회귀·생성물·정적·공백 검사를 재실행하고 9편의 본문 변경 범위와 날짜·메타 보존을 확인했다. 차단할 지적은 없었다. 독립 리뷰가 브라우저 QA나 외부 원문 확인을 다시 수행한 것은 아니다.
 
 ## 남은 미확인 사항
 

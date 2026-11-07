@@ -1,0 +1,20 @@
+[
+  {
+    "case": "missing",
+    "exitCode": 1,
+    "result": "PASS: invalid detail rejected",
+    "diagnostic": "AssertionError: ('/weapons/k9-thunder/', 'expected exactly one og:type=article')"
+  },
+  {
+    "case": "duplicate",
+    "exitCode": 1,
+    "result": "PASS: invalid detail rejected",
+    "diagnostic": "AssertionError: ('/weapons/k9-thunder/', 'expected exactly one og:type=article')"
+  },
+  {
+    "case": "website",
+    "exitCode": 1,
+    "result": "PASS: invalid detail rejected",
+    "diagnostic": "AssertionError: ('/weapons/k9-thunder/', 'expected exactly one og:type=article')"
+  }
+]

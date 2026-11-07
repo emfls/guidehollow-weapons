@@ -64,7 +64,14 @@ assert {p.stem for p in (root/'assets/illustrations').glob('*.webp')}==illustrat
 assert not (root/'assets/photos').exists()
 for row in catalog:
     route='/weapons/'+row['slug']+'/';p=pages[route];raw=(root/route.lstrip('/')/'index.html').read_text()
+    expected_url='https://'+host+route
+    assert [a.get('content') for t,a in p.tags if t=='meta' and a.get('property')=='og:type']==['article'],(route,'expected exactly one og:type=article')
+    assert [a.get('content') for t,a in p.tags if t=='meta' and a.get('property')=='og:url']==[expected_url],(route,'og:url')
+    expected_images=['https://'+host+'/assets/illustrations/'+row['slug']+'.webp'] if row['slug'] in illustrated else []
+    assert [a.get('content') for t,a in p.tags if t=='meta' and a.get('property')=='og:image']==expected_images,(route,'og:image')
     schema=[x for s in p.structured for x in s.get('@graph',[])];article=next(x for x in schema if x.get('@type')=='TechArticle')
+    assert article['url']==article['mainEntityOfPage']==expected_url,(route,'structured URL')
+    assert ([article['image']] if 'image' in article else [])==expected_images,(route,'structured image')
     assert article['headline']==row['name'] and 'author' not in article and 'datePublished' not in article
     assert any(x.get('@type')=='BreadcrumbList' for x in schema)
     if row['slug'] not in ['m1-abrams','f35-lightning-ii']:assert 'dateModified' not in article
