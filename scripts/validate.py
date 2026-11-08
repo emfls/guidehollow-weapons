@@ -80,6 +80,8 @@ for row in catalog:
     assert any(x.get('@type')=='BreadcrumbList' for x in schema)
     if row['slug'] not in ['m1-abrams','f35-lightning-ii']:assert 'dateModified' not in article
     if row['review'].get('date'):assert row['review']['date'] in raw,row['slug']
+    if row['slug'] not in illustrated:
+        assert 'media-pending image-awaiting article-art' in raw,(route,'missing pending-media panel')
     if row['slug'] in illustrated:
         assert 'photo-credit' in p.ids and '실물 사진 기반 AI 일러스트' in raw
         assert any(t=='img' and a.get('src')=='/assets/illustrations/'+row['slug']+'.webp' for t,a in p.tags)
