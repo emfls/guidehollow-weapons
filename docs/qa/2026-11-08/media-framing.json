@@ -1,0 +1,2683 @@
+{
+  "catalog": 337,
+  "image_count": 265,
+  "image_pending": 72,
+  "corrected": 24,
+  "results": [
+    {
+      "slug": "k2-black-panther",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "m1-abrams",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.038,
+      "status": "centered"
+    },
+    {
+      "slug": "leopard-2",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.008,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "k9-thunder",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.018,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "kf21-boramae",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.013,
+      "offset_y": 0.071,
+      "status": "centered"
+    },
+    {
+      "slug": "f35-lightning-ii",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": -0.018,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "f16-fighting-falcon",
+      "size": [
+        1538,
+        1023
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "f22-raptor",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": -0.018,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "sejong-the-great",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "arleigh-burke",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "patriot-system",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.013,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "iron-dome",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.076,
+      "offset_y": 0.0,
+      "status": "corrected",
+      "scale": 0.74
+    },
+    {
+      "slug": "mq9-reaper",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.034,
+      "offset_y": 0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "ak47-history",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": 0.01,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "k1a2",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "k21-ifv",
+      "size": [
+        1971,
+        798
+      ],
+      "offset_x": 0.062,
+      "offset_y": 0.038,
+      "status": "centered"
+    },
+    {
+      "slug": "k808",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.037,
+      "status": "centered"
+    },
+    {
+      "slug": "k239-chunmoo",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.003,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "k55a1",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "fa50",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "kuh1-surion",
+      "size": [
+        1539,
+        1022
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "kt1-woongbi",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "t50-golden-eagle",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.047,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "ka1-airborne-controller",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "lah-miron",
+      "size": [
+        1601,
+        983
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "challenger-2",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.031,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "leclerc",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "type-90",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.021,
+      "offset_y": 0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "type-10",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "pzh-2000",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.021,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "m2-bradley",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "m109-paladin",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.016,
+      "offset_y": 0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "m4-sherman",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.003,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "k1-mbt",
+      "size": [
+        1474,
+        1067
+      ],
+      "offset_x": 0.036,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "k1a1-mbt",
+      "size": [
+        1619,
+        971
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "rq4-global-hawk",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "virginia-class",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "k600-rhino",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "k1-avlb",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.05,
+      "status": "centered"
+    },
+    {
+      "slug": "k10-arv",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "k9a1-thunder",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "ta50-trainer",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.013,
+      "offset_y": -0.037,
+      "status": "centered"
+    },
+    {
+      "slug": "t50b-black-eagles",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": 0.039,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "t50i-export",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "fa50ph-export",
+      "size": [
+        1513,
+        1039
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "kt1b-export",
+      "size": [
+        1499,
+        1049
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.05,
+      "status": "centered"
+    },
+    {
+      "slug": "kt1t-export",
+      "size": [
+        1541,
+        1021
+      ],
+      "offset_x": -0.023,
+      "offset_y": 0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "muh1-marineon",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.016,
+      "offset_y": -0.058,
+      "status": "centered"
+    },
+    {
+      "slug": "kuh1m-medevac",
+      "size": [
+        1667,
+        943
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "kuh1p-police",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.129,
+      "status": "corrected",
+      "scale": 0.95
+    },
+    {
+      "slug": "f15k-slam-eagle",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "e737-peace-eye",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": 0.19,
+      "offset_y": 0.146,
+      "status": "corrected",
+      "scale": 1.65
+    },
+    {
+      "slug": "cn235-rokaf",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.026,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "b1b-lancer",
+      "size": [
+        1673,
+        940
+      ],
+      "offset_x": 0.039,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "b2-spirit",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.008,
+      "offset_y": 0.146,
+      "status": "corrected",
+      "scale": 0.845
+    },
+    {
+      "slug": "b52h-stratofortress",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.036,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "b21-raider",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "f15c-eagle",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "f15e-strike-eagle",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "a10-thunderbolt2",
+      "size": [
+        1752,
+        897
+      ],
+      "offset_x": 0.018,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "f117-nighthawk",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.023,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "f111-aardvark",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "c17-globemaster",
+      "size": [
+        1688,
+        932
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "mq1-predator",
+      "size": [
+        1752,
+        897
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "nimitz-class",
+      "size": [
+        1539,
+        1022
+      ],
+      "offset_x": -0.01,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "ford-class-carrier",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "zumwalt-class",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "ticonderoga-cruiser",
+      "size": [
+        1457,
+        1079
+      ],
+      "offset_x": 0.013,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "ohio-submarine",
+      "size": [
+        1554,
+        1012
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "type45-daring",
+      "size": [
+        1402,
+        1122
+      ],
+      "offset_x": -0.034,
+      "offset_y": -0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "queen-elizabeth-carrier",
+      "size": [
+        1503,
+        1046
+      ],
+      "offset_x": -0.021,
+      "offset_y": -0.042,
+      "status": "centered"
+    },
+    {
+      "slug": "astute-submarine",
+      "size": [
+        1538,
+        1023
+      ],
+      "offset_x": 0.06,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "chieftain-tank",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": -0.013,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "challenger-1",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.016,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "tiger-i",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "jagdtiger",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.016,
+      "offset_y": -0.067,
+      "status": "centered"
+    },
+    {
+      "slug": "matilda-ii",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "valentine-tank",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "cromwell-tank",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "t34-85",
+      "size": [
+        1687,
+        932
+      ],
+      "offset_x": 0.018,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "rafale-fighter",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.013,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "mirage-2000",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": -0.044,
+      "offset_y": -0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "jas39-gripen",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.018,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "saab-37-viggen",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.018,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "nasams",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "thaad",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "iron-beam",
+      "size": [
+        1672,
+        940
+      ],
+      "offset_x": -0.013,
+      "offset_y": 0.113,
+      "status": "corrected",
+      "scale": 0.863
+    },
+    {
+      "slug": "bayraktar-tb2",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "heron-tp",
+      "size": [
+        1983,
+        793
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.071,
+      "status": "centered"
+    },
+    {
+      "slug": "atago-destroyer",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.047,
+      "offset_y": -0.037,
+      "status": "centered"
+    },
+    {
+      "slug": "maya-destroyer",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "kongo-destroyer",
+      "size": [
+        1532,
+        1026
+      ],
+      "offset_x": 0.07,
+      "offset_y": -0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "suffren-class-submarine",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "vikrant-carrier",
+      "size": [
+        1624,
+        969
+      ],
+      "offset_x": -0.016,
+      "offset_y": -0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "p8a-rok",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "ch47d-chinook-rok",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.005,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "ah64e-rok",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "tr60-tiltrotor",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.169,
+      "offset_y": 0.162,
+      "status": "corrected",
+      "scale": 1.421
+    },
+    {
+      "slug": "c130h-rokaf",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.018,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "f4d-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "f4e-rokaf",
+      "size": [
+        1942,
+        809
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "f51d-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.038,
+      "status": "centered"
+    },
+    {
+      "slug": "f86f-rokaf",
+      "size": [
+        1666,
+        944
+      ],
+      "offset_x": 0.016,
+      "offset_y": 0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "f86d-rokaf",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.021,
+      "offset_y": 0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "t33a-rokaf",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "t6-texan-rokaf",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "f5a-rokaf",
+      "size": [
+        1558,
+        1009
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.096,
+      "status": "corrected",
+      "scale": 0.922
+    },
+    {
+      "slug": "f5b-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.008,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "f5e-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "f5f-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "kf5e-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "kf5f-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "eurofighter-typhoon",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "charles-de-gaulle-carrier",
+      "size": [
+        1619,
+        971
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.042,
+      "status": "centered"
+    },
+    {
+      "slug": "horizon-class",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.075,
+      "status": "centered"
+    },
+    {
+      "slug": "k1a-carbine",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.031,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "k7-smg",
+      "size": [
+        1428,
+        1102
+      ],
+      "offset_x": 0.044,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "k3-lmg",
+      "size": [
+        1661,
+        947
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "k12-machinegun",
+      "size": [
+        1940,
+        811
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "k14-sniper",
+      "size": [
+        1540,
+        1021
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.108,
+      "status": "corrected",
+      "scale": 0.943
+    },
+    {
+      "slug": "k4-grenade-launcher",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.023,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "k11-rifle-project",
+      "size": [
+        1687,
+        932
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "chungmugong-yi-sun-sin",
+      "size": [
+        1554,
+        1012
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "yamato-battleship",
+      "size": [
+        1753,
+        897
+      ],
+      "offset_x": 0.021,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "bismarck-battleship",
+      "size": [
+        1792,
+        878
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "type-vii-uboat",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "type212a-submarine",
+      "size": [
+        1629,
+        966
+      ],
+      "offset_x": -0.031,
+      "offset_y": -0.087,
+      "status": "corrected",
+      "scale": 1.001
+    },
+    {
+      "slug": "sampt",
+      "size": [
+        1506,
+        1045
+      ],
+      "offset_x": -0.091,
+      "offset_y": 0.017,
+      "status": "corrected",
+      "scale": 0.752
+    },
+    {
+      "slug": "e2d-hawkeye",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.164,
+      "offset_y": 0.025,
+      "status": "corrected",
+      "scale": 1.496
+    },
+    {
+      "slug": "panavia-tornado-ids",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.016,
+      "offset_y": -0.05,
+      "status": "centered"
+    },
+    {
+      "slug": "mig29-fulcrum",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.049,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "su35s",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.023,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "su57-felon",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.286,
+      "offset_y": -0.112,
+      "status": "corrected",
+      "scale": 1.223
+    },
+    {
+      "slug": "j20-mighty-dragon",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "type055-destroyer",
+      "size": [
+        2171,
+        724
+      ],
+      "offset_x": 0.01,
+      "offset_y": 0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "type052d-destroyer",
+      "size": [
+        2171,
+        724
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "su27-flanker",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.021,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "s300-system",
+      "size": [
+        1579,
+        996
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "s400-triumf",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.005,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "buk-m3",
+      "size": [
+        1498,
+        1050
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "kirov-class-cruiser",
+      "size": [
+        1738,
+        905
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.058,
+      "status": "centered"
+    },
+    {
+      "slug": "oh6a-cayuse",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.042,
+      "status": "centered"
+    },
+    {
+      "slug": "fa18e-super-hornet",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "fa18f-super-hornet",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "ea18g-growler",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": -0.031,
+      "offset_y": -0.083,
+      "status": "corrected",
+      "scale": 1.047
+    },
+    {
+      "slug": "f35b-lightning",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "v22-osprey",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.005,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "m24-chaffee",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.01,
+      "offset_y": 0.038,
+      "status": "centered"
+    },
+    {
+      "slug": "m47-patton",
+      "size": [
+        1541,
+        1020
+      ],
+      "offset_x": -0.013,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "m60-patton",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.01,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "f14-tomcat",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "f35c-lightning",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.005,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "a6-intruder",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": 0.013,
+      "offset_y": -0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "ea6b-prowler",
+      "size": [
+        1484,
+        1060
+      ],
+      "offset_x": -0.031,
+      "offset_y": -0.108,
+      "status": "corrected",
+      "scale": 1.023
+    },
+    {
+      "slug": "av8b-harrier-ii",
+      "size": [
+        1504,
+        1046
+      ],
+      "offset_x": -0.042,
+      "offset_y": -0.121,
+      "status": "corrected",
+      "scale": 1.354
+    },
+    {
+      "slug": "m4a3e2-jumbo",
+      "size": [
+        1436,
+        1095
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "a4-skyhawk",
+      "size": [
+        1752,
+        897
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "f104-starfighter",
+      "size": [
+        1415,
+        1111
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "f4e-phantom-us",
+      "size": [
+        1535,
+        1025
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "essex-class-carrier",
+      "size": [
+        1414,
+        1113
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "fletcher-class",
+      "size": [
+        1404,
+        1120
+      ],
+      "offset_x": -0.01,
+      "offset_y": -0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "gato-class-submarine",
+      "size": [
+        1531,
+        1027
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.125,
+      "status": "corrected",
+      "scale": 0.933
+    },
+    {
+      "slug": "iowa-battleship",
+      "size": [
+        1450,
+        1085
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "m18-hellcat",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.021,
+      "offset_y": 0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "m113-apc",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.034,
+      "offset_y": -0.037,
+      "status": "centered"
+    },
+    {
+      "slug": "m26-pershing",
+      "size": [
+        1655,
+        950
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "m3-lee",
+      "size": [
+        1614,
+        974
+      ],
+      "offset_x": 0.008,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "m5-stuart",
+      "size": [
+        1539,
+        1022
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "m10-wolverine",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.042,
+      "status": "centered"
+    },
+    {
+      "slug": "m46-patton",
+      "size": [
+        1533,
+        1026
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "m4a3e8-easy-eight",
+      "size": [
+        1534,
+        1025
+      ],
+      "offset_x": 0.018,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "m36-jackson",
+      "size": [
+        1390,
+        1132
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "t103-rokaf",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "t37c-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "t41b-rokaf",
+      "size": [
+        1666,
+        944
+      ],
+      "offset_x": 0.026,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "rf4c-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "a37b-rokaf",
+      "size": [
+        1666,
+        944
+      ],
+      "offset_x": 0.021,
+      "offset_y": 0.079,
+      "status": "centered"
+    },
+    {
+      "slug": "c123k-rokaf",
+      "size": [
+        1565,
+        1005
+      ],
+      "offset_x": -0.036,
+      "offset_y": -0.133,
+      "status": "corrected",
+      "scale": 1.005
+    },
+    {
+      "slug": "l19-bird-dog-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "t28a-trojan-rokaf",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "c46-commando-rokaf",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.01,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "t59-hawk-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.029,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "c54-skymaster-rokaf",
+      "size": [
+        1575,
+        998
+      ],
+      "offset_x": -0.01,
+      "offset_y": 0.075,
+      "status": "centered"
+    },
+    {
+      "slug": "rf5a-rok",
+      "size": [
+        1666,
+        944
+      ],
+      "offset_x": 0.023,
+      "offset_y": 0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "ec47q-rokaf",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.018,
+      "offset_y": 0.058,
+      "status": "centered"
+    },
+    {
+      "slug": "k200-apc",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.021,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "k200a1-apc",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "k55-howitzer",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.021,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "k2gf",
+      "size": [
+        1445,
+        1088
+      ],
+      "offset_x": 0.016,
+      "offset_y": 0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "kh178",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.012,
+      "status": "centered"
+    },
+    {
+      "slug": "kh179",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "kmsam-ii",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.033,
+      "status": "centered"
+    },
+    {
+      "slug": "ksam-cheonma",
+      "size": [
+        1327,
+        1186
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "k30-biho",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "hybrid-biho",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "k30w-cheonho",
+      "size": [
+        1942,
+        809
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "homar-k",
+      "size": [
+        1500,
+        1049
+      ],
+      "offset_x": -0.023,
+      "offset_y": 0.096,
+      "status": "corrected",
+      "scale": 0.984
+    },
+    {
+      "slug": "k136-kooryong",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.083,
+      "status": "corrected",
+      "scale": 1.031
+    },
+    {
+      "slug": "k151-ltv",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "m48a5k",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.049,
+      "offset_y": 0.042,
+      "status": "centered"
+    },
+    {
+      "slug": "t80u-rok",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "bmp3-rok",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "kaav7a1",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "kf16-fighter",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.01,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "kf16d-rokaf",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.01,
+      "offset_y": -0.038,
+      "status": "centered"
+    },
+    {
+      "slug": "ah1s-cobra-rok",
+      "size": [
+        1589,
+        990
+      ],
+      "offset_x": -0.133,
+      "offset_y": -0.075,
+      "status": "corrected",
+      "scale": 1.119
+    },
+    {
+      "slug": "md500-rok",
+      "size": [
+        1889,
+        832
+      ],
+      "offset_x": -0.148,
+      "offset_y": -0.088,
+      "status": "corrected",
+      "scale": 1.251
+    },
+    {
+      "slug": "uh60p-black-hawk",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "uh1h-rok",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "p3c-orion-rok",
+      "size": [
+        1774,
+        887
+      ],
+      "offset_x": -0.018,
+      "offset_y": -0.058,
+      "status": "centered"
+    },
+    {
+      "slug": "rq101-songgolmae",
+      "size": [
+        1989,
+        791
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "super-lynx-rok",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.034,
+      "offset_y": -0.05,
+      "status": "centered"
+    },
+    {
+      "slug": "hh60p-rok",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "hh32-ka32-rok",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.016,
+      "offset_y": -0.104,
+      "status": "corrected",
+      "scale": 0.82
+    },
+    {
+      "slug": "kus-fs-uav",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": -0.026,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "k131-military-jeep",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.008,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "km420-jeep",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.023,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "km450-truck",
+      "size": [
+        1670,
+        941
+      ],
+      "offset_x": -0.008,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "km250-truck",
+      "size": [
+        1822,
+        863
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "km500-truck",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.003,
+      "offset_y": 0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "m270-rok",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.12,
+      "offset_y": 0.037,
+      "status": "corrected",
+      "scale": 0.97
+    },
+    {
+      "slug": "hyunmoo-2",
+      "size": [
+        1918,
+        820
+      ],
+      "offset_x": -0.023,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "hyunmoo-3",
+      "size": [
+        1808,
+        870
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "km9-ace",
+      "size": [
+        1538,
+        1023
+      ],
+      "offset_x": 0.026,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "leopard-1",
+      "size": [
+        1548,
+        1016
+      ],
+      "offset_x": -0.042,
+      "offset_y": -0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "marder-1",
+      "size": [
+        1788,
+        880
+      ],
+      "offset_x": 0.003,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "puma-ifv",
+      "size": [
+        1430,
+        1100
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.054,
+      "status": "centered"
+    },
+    {
+      "slug": "warrior-ifv",
+      "size": [
+        1538,
+        1023
+      ],
+      "offset_x": 0.016,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "tiger-ii",
+      "size": [
+        1672,
+        941
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "panther-tank",
+      "size": [
+        1594,
+        986
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "panzer-iv",
+      "size": [
+        1560,
+        1008
+      ],
+      "offset_x": -0.005,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "panzer-iii",
+      "size": [
+        1640,
+        959
+      ],
+      "offset_x": 0.003,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "stug-iii",
+      "size": [
+        1758,
+        894
+      ],
+      "offset_x": -0.005,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "jagdpanther",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.013,
+      "offset_y": -0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "panzer-ii",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.044,
+      "offset_y": 0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "panzer-i",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.079,
+      "status": "centered"
+    },
+    {
+      "slug": "nashorn",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "char-b1-bis",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.008,
+      "offset_y": 0.008,
+      "status": "centered"
+    },
+    {
+      "slug": "somua-s35",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.0,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "challenger-3",
+      "size": [
+        1535,
+        1024
+      ],
+      "offset_x": 0.026,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "cv90",
+      "size": [
+        1526,
+        1030
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "amx10rc",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.055,
+      "offset_y": 0.042,
+      "status": "centered"
+    },
+    {
+      "slug": "vbci-ifv",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.005,
+      "offset_y": -0.013,
+      "status": "centered"
+    },
+    {
+      "slug": "type-99a",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.036,
+      "offset_y": 0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "merkava-mk4",
+      "size": [
+        1470,
+        1070
+      ],
+      "offset_x": -0.008,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "kv1",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.003,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "is2",
+      "size": [
+        1446,
+        1087
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "su100",
+      "size": [
+        1555,
+        1012
+      ],
+      "offset_x": 0.031,
+      "offset_y": -0.05,
+      "status": "centered"
+    },
+    {
+      "slug": "elefant-tank-destroyer",
+      "size": [
+        1618,
+        972
+      ],
+      "offset_x": 0.005,
+      "offset_y": 0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "marder-iii",
+      "size": [
+        1424,
+        1104
+      ],
+      "offset_x": -0.096,
+      "offset_y": 0.129,
+      "status": "corrected",
+      "scale": 0.86
+    },
+    {
+      "slug": "churchill-mk7",
+      "size": [
+        1614,
+        974
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "sherman-firefly",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": 0.008,
+      "offset_y": 0.021,
+      "status": "centered"
+    },
+    {
+      "slug": "t90",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": 0.026,
+      "offset_y": 0.05,
+      "status": "centered"
+    },
+    {
+      "slug": "c1-ariete",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.031,
+      "offset_y": 0.046,
+      "status": "centered"
+    },
+    {
+      "slug": "panzer-38t",
+      "size": [
+        1452,
+        1083
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "isu152",
+      "size": [
+        1633,
+        963
+      ],
+      "offset_x": -0.003,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "bmp1",
+      "size": [
+        1533,
+        1026
+      ],
+      "offset_x": 0.003,
+      "offset_y": -0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "bmp2",
+      "size": [
+        1560,
+        1008
+      ],
+      "offset_x": 0.01,
+      "offset_y": -0.025,
+      "status": "centered"
+    },
+    {
+      "slug": "btr80",
+      "size": [
+        1576,
+        998
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.004,
+      "status": "centered"
+    },
+    {
+      "slug": "btr82a",
+      "size": [
+        1575,
+        998
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.062,
+      "status": "centered"
+    },
+    {
+      "slug": "t14-armata",
+      "size": [
+        1536,
+        1024
+      ],
+      "offset_x": -0.003,
+      "offset_y": 0.017,
+      "status": "centered"
+    },
+    {
+      "slug": "su76m",
+      "size": [
+        1475,
+        1066
+      ],
+      "offset_x": -0.034,
+      "offset_y": 0.0,
+      "status": "centered"
+    },
+    {
+      "slug": "t26-tank",
+      "size": [
+        1448,
+        1086
+      ],
+      "offset_x": -0.044,
+      "offset_y": -0.029,
+      "status": "centered"
+    },
+    {
+      "slug": "bt7-tank",
+      "size": [
+        1447,
+        1087
+      ],
+      "offset_x": 0.0,
+      "offset_y": 0.071,
+      "status": "centered"
+    },
+    {
+      "slug": "sdkfz-234-2",
+      "size": [
+        1719,
+        915
+      ],
+      "offset_x": 0.013,
+      "offset_y": 0.0,
+      "status": "centered"
+    }
+  ],
+  "method": "subject bounding box, 1600x900 solid-matte reframing; no crop of detected subject"
+}

@@ -1,0 +1,8 @@
+{
+  "pagination": {
+    "tag": "P",
+    "id": "result-count",
+    "url": "http://127.0.0.1:8768/atlas/?page=2"
+  },
+  "back": "http://127.0.0.1:8768/compare/?a=k2-black-panther&b=m1-abrams&pa=k2-standard&pb=m1a2-sepv3-us&qb=F35"
+}

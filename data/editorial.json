@@ -1,0 +1,841 @@
+{
+  "reviewDate": "2026-11-07",
+  "sources": {
+    "m1-history": {
+      "title": "National Defense University, Critical Technology Events in the Development of the Abrams Tank (December 2005), printed p.7 / PDF p.10",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D5_400-PURL-gpo5913/pdf/GOVPUB-D5_400-PURL-gpo5913.pdf",
+      "reviewedAt": "2026-11-07",
+      "notes": "Government-authored historical study hosted by Government Publishing Office; source states author views are not official policy."
+    },
+    "m1-service": {
+      "title": "U.S. Army: AMC-developed weapons remain vital to Army",
+      "url": "https://www.army.mil/article/86839/amc_developed_weapons_remain_vital_to_army",
+      "reviewedAt": "2026-11-07"
+    },
+    "m1-sepv3-delivery": {
+      "title": "U.S. Army: Army rolls out latest version of iconic Abrams Main Battle Tank",
+      "url": "https://www.army.mil/article/194952/army_rolls_out_latest_version_of_iconic_abrams_main_battle_tank",
+      "reviewedAt": "2026-11-07"
+    },
+    "m1-sepv3-yuma": {
+      "title": "U.S. Army: Latest and greatest M1 tank tested at U.S. Army Yuma Proving Ground",
+      "url": "https://www.army.mil/article/214733/latest_and_greatest_m1_tank_tested_at_u_s_army_yuma_proving_ground",
+      "reviewedAt": "2026-11-07"
+    },
+    "m1-australia": {
+      "title": "Australian Army: M1A2 Abrams tank (SEPv3)",
+      "url": "https://www.army.gov.au/equipment/vehicles-and-surveillance/m1a2-abrams-tank",
+      "reviewedAt": "2026-11-07",
+      "notes": "Australian configuration only. Weight is explicitly 67 mt; source labels weight, not combat weight. Speed is >60 km/h standard terrain / >40 km/h cross-country, not an exact paved-road maximum."
+    },
+    "f35-variants": {
+      "title": "Lockheed Martin F-35 Variants FINAL",
+      "url": "https://view.ceros.com/lockheed-martin/f-35-variants",
+      "reviewedAt": "2026-11-07",
+      "notes": "Official manufacturer comparison embedded/linked from https://www.f35.com/f35/about.html, link title F-35 Variants FINAL. It contains historic cost lots; do not use it for current prices or fleet counts."
+    },
+    "f35-about": {
+      "title": "Lockheed Martin: About the F-35",
+      "url": "https://www.f35.com/f35/about.html",
+      "reviewedAt": "2026-11-07",
+      "notes": "Affiliation confirmation for Ceros table and stealth misconception. Do not use broad marketing superiority claims."
+    },
+    "f35-navair": {
+      "title": "NAVAIR: F-35 Lightning II",
+      "url": "https://www.navair.navy.mil/product/F-35-Lightning-II",
+      "reviewedAt": "2026-11-07",
+      "notes": "Supports 2001 JSF award and industry team; this older page is not a numerical specifications source."
+    },
+    "f35-single": {
+      "title": "NAWCAD Lakehurst: F-35 Joint Strike Fighter",
+      "url": "https://www.navair.navy.mil/lakehurst/product/F-35-Joint-Strike-Fighter-JSF",
+      "reviewedAt": "2026-11-07",
+      "notes": "Explicit single-seat, single-engine description. Do not reuse obsolete partner/customer list."
+    },
+    "f35-timeline": {
+      "title": "Lockheed Martin: 20 Years of the F-35",
+      "url": "https://view.ceros.com/lockheed-martin/the-f35-history-timeline",
+      "reviewedAt": "2026-11-07"
+    },
+    "f35-first-flight": {
+      "title": "Lockheed Martin: F-35 Lightning II Stealth Fighter Completes First Flight (15 Dec 2006)",
+      "url": "https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-f-35-lightning-ii-stealth-fighter-completes",
+      "reviewedAt": "2026-11-07"
+    },
+    "f35c-design": {
+      "title": "Lockheed Martin: First F-35C Reports To The Navy (24 June 2013)",
+      "url": "https://news.lockheedmartin.com/2013-06-24-First-Lockheed-Martin-F-35C-Reports-To-The-Navy",
+      "reviewedAt": "2026-11-07",
+      "notes": "Supports larger wings, stronger landing gear, folding wingtips and catapult/arrested-carrier role; use current reviewed variant table for numbers."
+    },
+    "k2": {
+      "title": "Hyundai Rotem: K2 Main Battle Tank",
+      "url": "https://www.hyundai-rotem.co.kr/en/business/defense/details.do?productCt03=defense0101",
+      "reviewedAt": "2026-11-07",
+      "notes": "Manufacturer general K2 profile; says variable based on requirements and lists K2GF/Middle East separately. Do not imply each export configuration identical."
+    },
+    "m1-handbook": {
+      "title": "미 육군 2020–2021 Weapon Systems Handbook · Abrams, 본문 58–59쪽",
+      "url": "https://asc.army.mil/docs/wsh2/2020-2021-wsh.pdf",
+      "reviewedAt": "2026-11-07",
+      "notes": "공식 Army Acquisition 원본 PDF를 임시 폴더로 내려받아 본문 58–59쪽을 직접 검토했다. 표는 Combat weight (tons): SEPv3 73.6와 Speed: 42 mph, 30 mph x-country로 명시한다. tons의 short/metric 구분과 42mph의 road/governed/max 조건은 명시하지 않는다."
+    },
+    "m1-crew": {
+      "title": "미 주방위군 / Fort Benning Public Affairs: Sullivan Cup 전차 승무원 소개",
+      "url": "https://www.nationalguard.mil/News/State-Partnership-Program/Article/2101291/fort-benning-to-host-sullivan-cup-tank-crew-competition/",
+      "reviewedAt": "2026-11-07",
+      "notes": "2020-03-04 공식 기사. Abrams tank crews의 4인 구성(전차장·포수·장전수·조종수)을 계열 공통으로 명시한다. SEPv3만의 독립 표는 아니다."
+    },
+    "f35a-mtow": {
+      "title": "미시간 주방위군 / 127th Wing Public Affairs: F-35A General Characteristics",
+      "url": "https://minationalguard.dodlive.mil/News/Archive/Article/2617229/selfridge-air-national-guard-base-considered-for-nations-newest-fighter-aircraft/",
+      "reviewedAt": "2026-11-07",
+      "notes": "2016-12-16 공식 기사 하단의 F-35A 제원표. Maximum Takeoff Weight: 70,000 pound class로 명시한다. 정밀한 최대 kg 값으로 환산하지 않는다."
+    },
+    "k9-wia-gun": {
+      "title": "현대위아 육상 화포 · K9 / K55A1 형식별 공개 제원표",
+      "url": "https://www.hyundai-wia.com/business/defense_ground_01.asp",
+      "reviewedAt": "2026-11-07",
+      "notes": "직접 열람한 K9/K55A1 병렬표는 K9의 구경 155mm와 포신길이 52구경장을 명시한다. K55A1 열의 39구경장과 구분했다. 장착 화포 자료이며 차량 전체 중량·승무원·기동 제원 자료는 아니다. 최대사거리 40Km는 탄종·시험 조건이 없어 비교값으로 채택하지 않았다."
+    }
+  },
+  "profiles": {
+    "k2-standard": {
+      "label": "K2 · 현대로템 일반 공개형",
+      "category": "ground",
+      "role": "주력전차",
+      "fields": {
+        "crew": {
+          "status": "known",
+          "value": "3",
+          "unit": "명",
+          "source": "k2",
+          "condition": "제조사 일반 공개형; 요구사항에 따라 구성 변경 가능"
+        },
+        "combatMass": {
+          "status": "known",
+          "value": "56",
+          "unit": "t",
+          "source": "k2",
+          "condition": "제조사 Combat Weight; 일반 공개형"
+        },
+        "mainArmament": {
+          "status": "known",
+          "value": "120",
+          "unit": "mm",
+          "source": "k2",
+          "condition": "55구경장 활강포; 55는 포신 길이의 구경장으로 구경 mm와 다르다"
+        },
+        "enginePower": {
+          "status": "known",
+          "value": "1,500",
+          "unit": "hp",
+          "source": "k2",
+          "condition": "디젤 엔진; 제조사 일반 공개형"
+        },
+        "roadSpeed": {
+          "status": "known",
+          "value": "70",
+          "unit": "km/h",
+          "source": "k2",
+          "condition": "최고속도; paved road / 포장도로"
+        },
+        "length": {
+          "status": "uncollected",
+          "condition": "해당 형식과 측정 기준에 맞는 직접 공개 자료를 아직 수집하지 않았다."
+        },
+        "width": {
+          "status": "uncollected",
+          "condition": "해당 형식과 측정 기준에 맞는 직접 공개 자료를 아직 수집하지 않았다."
+        },
+        "height": {
+          "status": "uncollected",
+          "condition": "해당 형식과 측정 기준에 맞는 직접 공개 자료를 아직 수집하지 않았다."
+        }
+      }
+    },
+    "m1a2-sepv3-us": {
+      "label": "M1A2 SEPv3 · 미 육군 공개형",
+      "category": "ground",
+      "role": "주력전차",
+      "fields": {
+        "crew": {
+          "status": "known",
+          "value": "4",
+          "unit": "명",
+          "source": "m1-crew",
+          "condition": "미국 공식 기관이 명시한 Abrams 계열 공통 승무원 구성: 전차장·포수·장전수·조종수. SEPv3 전용 제원표가 아니라 계열 공통 설명의 적용이다."
+        },
+        "combatMass": {
+          "status": "uncollected",
+          "condition": "직접 검토한 미 육군 표는 SEPv3 Combat weight 73.6 tons로 표기한다. short ton/metric tonne 구분이 명시되지 않아 정밀 metric 전투중량으로 확정하거나 환산하지 않는다.",
+          "source": "m1-handbook"
+        },
+        "mainArmament": {
+          "status": "known",
+          "value": "120",
+          "unit": "mm",
+          "source": "m1-sepv3-yuma",
+          "condition": "미 육군 Yuma Proving Ground의 SEPv3 공개 소개; 주포 구경"
+        },
+        "enginePower": {
+          "status": "known",
+          "value": "1,500",
+          "unit": "hp",
+          "source": "m1-sepv3-yuma",
+          "condition": "미 육군 Yuma Proving Ground의 SEPv3 공개 소개; 가스터빈 엔진"
+        },
+        "roadSpeed": {
+          "status": "uncollected",
+          "condition": "공식 Abrams 공통표는 Speed 42 mph와 30 mph x-country를 공개하나 42 mph를 road/max/governed라고 명시하지 않는다. publishedSpeed와 crossCountrySpeed에 각각 원문 조건으로 보존한다."
+        },
+        "length": {
+          "status": "uncollected",
+          "condition": "해당 형식과 측정 기준에 맞는 직접 공개 자료를 아직 수집하지 않았다."
+        },
+        "width": {
+          "status": "uncollected",
+          "condition": "해당 형식과 측정 기준에 맞는 직접 공개 자료를 아직 수집하지 않았다."
+        },
+        "height": {
+          "status": "uncollected",
+          "condition": "해당 형식과 측정 기준에 맞는 직접 공개 자료를 아직 수집하지 않았다."
+        },
+        "publishedSpeed": {
+          "status": "known",
+          "value": "42",
+          "unit": "mph",
+          "source": "m1-handbook",
+          "condition": "SEPv3를 포함한 Abrams 공통 제원표의 Speed 항목 원문. road/max/governed 조건을 명시하지 않아 포장도로 최고속도와 별도 항목으로 보존한다."
+        },
+        "crossCountrySpeed": {
+          "status": "known",
+          "value": "30",
+          "unit": "mph",
+          "source": "m1-handbook",
+          "condition": "SEPv3를 포함한 Abrams 공통 제원표 원문 30 mph x-country. 개별 추가 장비·하중·노면 상태의 조건은 별도로 명시하지 않는다."
+        }
+      }
+    },
+    "m1a2-sepv3-au": {
+      "label": "M1A2 SEPv3 · 호주 육군 공개형",
+      "category": "ground",
+      "role": "주력전차",
+      "fields": {
+        "crew": {
+          "status": "known",
+          "value": "4",
+          "unit": "명",
+          "source": "m1-australia",
+          "condition": "호주군 공개 구성; 전차장·포수·장전수·조종수"
+        },
+        "combatMass": {
+          "status": "uncollected",
+          "condition": "호주군 자료는 Weight 67 mt로만 표기한다. 이를 전투중량으로 재분류하지 않았다.",
+          "source": "m1-australia"
+        },
+        "mainArmament": {
+          "status": "known",
+          "value": "120",
+          "unit": "mm",
+          "source": "m1-australia",
+          "condition": "호주군 공개 구성; 주포 구경"
+        },
+        "enginePower": {
+          "status": "known",
+          "value": "1,500",
+          "unit": "shp",
+          "source": "m1-australia",
+          "condition": "호주군 공개 구성; 가스터빈의 shaft horsepower"
+        },
+        "roadSpeed": {
+          "status": "uncollected",
+          "condition": "호주군 자료는 standard terrain과 cross-country 속도를 공개한다. 포장도로 최고속도라고 명시하지 않아 별도 항목에 보존했다.",
+          "source": "m1-australia"
+        },
+        "length": {
+          "status": "known",
+          "value": "9.7",
+          "unit": "m",
+          "source": "m1-australia",
+          "condition": "호주군 General Characteristics; 길이 측정 기준 추가 설명 없음"
+        },
+        "width": {
+          "status": "known",
+          "value": "3.7",
+          "unit": "m",
+          "source": "m1-australia",
+          "condition": "호주군 General Characteristics; 폭 측정 기준 추가 설명 없음"
+        },
+        "height": {
+          "status": "known",
+          "value": "3.09",
+          "unit": "m",
+          "source": "m1-australia",
+          "condition": "호주군 General Characteristics; 높이 측정 기준 추가 설명 없음"
+        },
+        "vehicleMass": {
+          "status": "known",
+          "value": "67",
+          "unit": "t",
+          "source": "m1-australia",
+          "condition": "원문 Weight 67 mt; 전투중량이라고 명시하지 않아 combatMass와 분리"
+        },
+        "standardTerrainSpeed": {
+          "status": "known",
+          "value": ">60",
+          "unit": "km/h",
+          "source": "m1-australia",
+          "condition": "원문 More than 60 km/h (standard terrain); 포장도로 최고속도와 분리"
+        },
+        "crossCountrySpeed": {
+          "status": "known",
+          "value": ">40",
+          "unit": "km/h",
+          "source": "m1-australia",
+          "condition": "원문 More than 40 km/h (cross-country)"
+        }
+      }
+    },
+    "f35a": {
+      "label": "F-35A",
+      "category": "aircraft",
+      "role": "일반 활주로에서 운용하는 재래식 이착륙형(CTOL)",
+      "fields": {
+        "crew": {
+          "status": "known",
+          "value": "1",
+          "unit": "명",
+          "source": "f35-single",
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35A"
+        },
+        "engineCount": {
+          "status": "known",
+          "value": "1",
+          "unit": "기",
+          "source": "f35-single",
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35A"
+        },
+        "length": {
+          "status": "known",
+          "value": "15.7",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35A"
+        },
+        "height": {
+          "status": "known",
+          "value": "4.38",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35A"
+        },
+        "span": {
+          "status": "known",
+          "value": "10.7",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35A"
+        },
+        "manufacturerWeightClass": {
+          "status": "known",
+          "value": "70,000",
+          "unit": "lb class",
+          "source": "f35-variants",
+          "condition": "제조사 Maximum Weight 등급. 최대이륙중량 수치로 명시되지 않아 maxTakeoffMass와 분리했다."
+        },
+        "maxSpeed": {
+          "status": "known",
+          "value": "1.6",
+          "unit": "Mach",
+          "source": "f35-variants",
+          "condition": "내부 무장 완전 탑재 조건"
+        },
+        "combatRadius": {
+          "status": "known",
+          "value": ">590",
+          "unit": "해리",
+          "source": "f35-variants",
+          "condition": "초과; 내부 연료; USAF profile; 제조사 약 1,093 km"
+        },
+        "range": {
+          "status": "known",
+          "value": ">1,200",
+          "unit": "해리",
+          "source": "f35-variants",
+          "condition": "초과; 내부 연료; USAF profile; 제조사 약 2,200 km"
+        },
+        "maxTakeoffMass": {
+          "status": "known",
+          "value": "70,000",
+          "unit": "lb class",
+          "source": "f35a-mtow",
+          "condition": "F-35A형 공식 공개표의 Maximum Takeoff Weight. 70,000 pound class라는 등급 표현이며 정확한 kg 한계값으로 환산하지 않는다."
+        },
+        "takeoffMode": {
+          "status": "known",
+          "value": "CTOL",
+          "unit": "",
+          "source": "f35-variants",
+          "condition": "일반 활주로에서 운용하는 재래식 이착륙형(CTOL)"
+        }
+      }
+    },
+    "f35b": {
+      "label": "F-35B",
+      "category": "aircraft",
+      "role": "단거리 이륙·수직 착륙형(STOVL)",
+      "fields": {
+        "crew": {
+          "status": "known",
+          "value": "1",
+          "unit": "명",
+          "source": "f35-single",
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35B"
+        },
+        "engineCount": {
+          "status": "known",
+          "value": "1",
+          "unit": "기",
+          "source": "f35-single",
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35B"
+        },
+        "length": {
+          "status": "known",
+          "value": "15.6",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35B"
+        },
+        "height": {
+          "status": "known",
+          "value": "4.36",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35B"
+        },
+        "span": {
+          "status": "known",
+          "value": "10.7",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35B"
+        },
+        "manufacturerWeightClass": {
+          "status": "known",
+          "value": "60,000",
+          "unit": "lb class",
+          "source": "f35-variants",
+          "condition": "제조사 Maximum Weight 등급. 최대이륙중량 수치로 명시되지 않아 maxTakeoffMass와 분리했다."
+        },
+        "maxSpeed": {
+          "status": "known",
+          "value": "1.6",
+          "unit": "Mach",
+          "source": "f35-variants",
+          "condition": "내부 무장 완전 탑재 조건"
+        },
+        "combatRadius": {
+          "status": "known",
+          "value": ">450",
+          "unit": "해리",
+          "source": "f35-variants",
+          "condition": "초과; 내부 연료; USMC profile; 제조사 약 833 km"
+        },
+        "range": {
+          "status": "known",
+          "value": ">900",
+          "unit": "해리",
+          "source": "f35-variants",
+          "condition": "초과; 내부 연료; USMC profile; 제조사 약 1,667 km"
+        },
+        "maxTakeoffMass": {
+          "status": "uncollected",
+          "condition": "직접 열람한 제조사 표의 항목명은 Maximum Weight이며 class로 공개한다. 명시적인 최대이륙중량 자료를 확인하기 전까지 해당 값과 합치지 않는다.",
+          "source": "f35-variants"
+        },
+        "takeoffMode": {
+          "status": "known",
+          "value": "STOVL",
+          "unit": "",
+          "source": "f35-variants",
+          "condition": "단거리 이륙·수직 착륙형(STOVL)"
+        }
+      }
+    },
+    "f35c": {
+      "label": "F-35C",
+      "category": "aircraft",
+      "role": "항공모함 사출 이륙·제동 착함용(CV); 더 넓은 날개, 강화 착륙장치, 접이식 날개 끝",
+      "fields": {
+        "crew": {
+          "status": "known",
+          "value": "1",
+          "unit": "명",
+          "source": "f35-single",
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35C"
+        },
+        "engineCount": {
+          "status": "known",
+          "value": "1",
+          "unit": "기",
+          "source": "f35-single",
+          "condition": "NAVAIR의 F-35 계열 단좌·단발 설명 적용; F-35C"
+        },
+        "length": {
+          "status": "known",
+          "value": "15.7",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35C"
+        },
+        "height": {
+          "status": "known",
+          "value": "4.48",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "제조사 형식별 공개 표; F-35C"
+        },
+        "span": {
+          "status": "known",
+          "value": "13.1",
+          "unit": "m",
+          "source": "f35-variants",
+          "condition": "날개 펼침; 접힌 상태 값과 혼합 금지"
+        },
+        "manufacturerWeightClass": {
+          "status": "known",
+          "value": "70,000",
+          "unit": "lb class",
+          "source": "f35-variants",
+          "condition": "제조사 Maximum Weight 등급. 최대이륙중량 수치로 명시되지 않아 maxTakeoffMass와 분리했다."
+        },
+        "maxSpeed": {
+          "status": "known",
+          "value": "1.6",
+          "unit": "Mach",
+          "source": "f35-variants",
+          "condition": "내부 무장 완전 탑재 조건"
+        },
+        "combatRadius": {
+          "status": "known",
+          "value": ">600",
+          "unit": "해리",
+          "source": "f35-variants",
+          "condition": "초과; 내부 연료; USN profile; 제조사 약 1,100 km"
+        },
+        "range": {
+          "status": "known",
+          "value": ">1,200",
+          "unit": "해리",
+          "source": "f35-variants",
+          "condition": "초과; 내부 연료; 표 원문은 USAF profile로 명시. USN profile로 임의 수정하지 말 것; 제조사 약 2,200 km"
+        },
+        "maxTakeoffMass": {
+          "status": "uncollected",
+          "condition": "직접 열람한 제조사 표의 항목명은 Maximum Weight이며 class로 공개한다. 명시적인 최대이륙중량 자료를 확인하기 전까지 해당 값과 합치지 않는다.",
+          "source": "f35-variants"
+        },
+        "takeoffMode": {
+          "status": "known",
+          "value": "CV",
+          "unit": "",
+          "source": "f35-variants",
+          "condition": "항공모함 사출 이륙·제동 착함용(CV); 더 넓은 날개, 강화 착륙장치, 접이식 날개 끝"
+        }
+      }
+    },
+    "k9-standard": {
+      "label": "K9 기본형 · 공개 주포 구성",
+      "category": "ground",
+      "role": "자주포",
+      "fields": {
+        "crew": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        },
+        "combatMass": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        },
+        "mainArmament": {
+          "status": "known",
+          "value": "155",
+          "unit": "mm",
+          "source": "k9-wia-gun",
+          "condition": "현대위아 K9 열의 구경 155mm. 같은 열의 포신길이는 52구경장이다. K55A1의 39구경장과 구분하며, 모든 K9 개량형·수출형의 전체 구성이 같다고 일반화하지 않는다."
+        },
+        "enginePower": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        },
+        "roadSpeed": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        },
+        "length": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        },
+        "width": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        },
+        "height": {
+          "status": "uncollected",
+          "condition": "직접 검토한 현대위아 자료는 K9 장착 화포 제원표이며 이 차량 전체 항목의 직접 근거를 제공하지 않는다."
+        }
+      }
+    }
+  },
+  "articles": {
+    "m1-abrams": {
+      "summary": "M1 에이브럼스는 1980년 미 육군에 도입된 주력전차 계열이다. 초기 M1에서 M1A1·M1A2와 SEP 개량형으로 이어지며 주포, 조준·정보체계, 전력 공급과 방호 구성이 발전했다. 이 페이지의 일러스트는 초기 M1이 아니라 M1A2 SEPv3를 보여 준다.",
+      "description": "1980년 도입된 M1 전차 계열의 역사와 M1·M1A1·M1A2·SEPv3 차이, 형식별 공개 제원을 정리합니다.",
+      "profileIds": [
+        "m1a2-sepv3-us",
+        "m1a2-sepv3-au"
+      ],
+      "reviewScope": "이 문서의 계열 역사·주요 형식 차이와 표시한 공개 제원만 2026-11-07에 검토했다. 대표 일러스트는 미 육군 M1A2 SEPv3이며 초기 M1의 제원을 뜻하지 않는다. 전체 도감 337종의 심층 검증 완료를 의미하지 않는다.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "같은 이름 아래 이어진 전차 계열",
+          "paragraphs": [
+            "M1 에이브럼스는 1980년 미 육군에 도입된 주력전차 계열이다. 초기 M1에서 M1A1과 M1A2로 이어진 변화는 이름의 숫자만 바뀐 것이 아니라 주포와 관측·정보체계의 변화를 포함한다.",
+            "이 페이지의 대표 일러스트는 M1A2 SEPv3다. 계열의 역사와 현재 표시하는 대표 형식을 구분해 읽어야 한다."
+          ],
+          "sources": [
+            "m1-service",
+            "m1-history",
+            "m1-sepv3-delivery"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "주포 교체에서 전자체계와 전력 공급으로",
+          "paragraphs": [
+            "초기 M1의 뒤를 이은 M1A1은 주포를 바꾼 주요 개량형이다. M1A2는 전차장 독립 열상관측장치와 차량 간 정보체계를 더했으며, 이후 SEP 개량을 통해 디지털 지휘·통제체계를 보강했다.",
+            "2017년 미 육군이 인수한 SEPv3 초기 생산차는 통신과 전력 생성·분배, 정비용 모듈, 보조동력장치, 방호 등의 개선을 포함했다. 초기 생산차 인수 날짜를 전 부대 배치 완료 날짜로 읽어서는 안 된다."
+          ],
+          "sources": [
+            "m1-history",
+            "m1-sepv3-delivery"
+          ]
+        },
+        {
+          "id": "reading-specifications",
+          "title": "형식과 운용국이 다른 제원은 구분",
+          "paragraphs": [
+            "미 육군 공개형과 호주 육군 공개형을 별도 표로 제공한다. 같은 SEPv3라는 이름이라도 공개 자료의 구성과 측정 항목이 일치하는지 먼저 확인해야 한다.",
+            "호주군이 Weight로 공개한 값은 차량 중량 항목에, standard terrain에서의 속도는 해당 조건의 별도 항목에 옮겼다. 각각을 전투중량이나 포장도로 최고속도로 바꿔 쓰지 않았다."
+          ],
+          "sources": [
+            "m1-australia",
+            "m1-sepv3-yuma"
+          ]
+        },
+        {
+          "id": "perspective",
+          "title": "외형만으로 같은 형식이라 판단하기 어려운 이유",
+          "paragraphs": [
+            "호주 육군은 SEPv3가 M1A1과 외형상 비슷하지만 내부 기술의 변화가 크다고 설명한다. 겉모습뿐 아니라 조준·정보·전력·정비 구성과 자료의 형식명을 함께 확인하는 편이 정확하다."
+          ],
+          "bullets": [
+            "초기 M1과 M1A1 이후의 주포 제원을 섞지 않는다.",
+            "한 수출형의 공개 구성을 모든 운용국의 SEPv3에 일반화하지 않는다."
+          ],
+          "sources": [
+            "m1-history",
+            "m1-australia",
+            "m1-sepv3-delivery"
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "1980",
+          "event": "초기 M1이 미 육군에 도입됐다.",
+          "source": "m1-service"
+        },
+        {
+          "date": "1985",
+          "event": "105mm 주포 대신 120mm 주포를 채택한 M1A1 생산이 시작됐다.",
+          "source": "m1-history"
+        },
+        {
+          "date": "1992",
+          "event": "전차장 독립 열상관측장치와 차량 간 정보체계를 갖춘 M1A2가 생산됐다.",
+          "source": "m1-history"
+        },
+        {
+          "date": "1999",
+          "event": "초기 M1A2 SEP 전차가 미 육군에 인도됐다.",
+          "source": "m1-history"
+        },
+        {
+          "date": "2017-10-04",
+          "event": "미 육군이 M1A2 SEPv3 초기 생산차 첫 물량을 인수했다. 이는 전 부대 배치 완료를 뜻하지 않는다.",
+          "source": "m1-sepv3-delivery"
+        }
+      ],
+      "variants": [
+        {
+          "name": "M1",
+          "description": "초기 생산형. 105mm 주포를 사용했다.",
+          "source": "m1-history"
+        },
+        {
+          "name": "M1A1",
+          "description": "120mm 주포로 바뀐 주요 개량형. M1과 같은 주포 구경으로 표기하면 안 된다.",
+          "source": "m1-history"
+        },
+        {
+          "name": "M1A2",
+          "description": "전차장 독립 열상관측장치와 차량 간 정보체계를 추가한 형식이다.",
+          "source": "m1-history"
+        },
+        {
+          "name": "M1A2 SEPv3",
+          "description": "M1A2 SEP 계열 개량형. 통신, 전력 생성·분배, 정비용 모듈, 보조동력장치와 방호 등이 보강됐다.",
+          "source": "m1-sepv3-delivery"
+        }
+      ],
+      "related": [
+        "k2-black-panther",
+        "leopard-2",
+        "t90"
+      ]
+    },
+    "f35-lightning-ii": {
+      "summary": "F-35 라이트닝 II는 단좌·단발 다목적 전투기 계열이다. 같은 이름 아래 일반 활주로용 A형, 단거리 이륙·수직 착륙용 B형, 사출 이륙과 제동 착함을 하는 항공모함용 C형이 나뉜다. 이 페이지의 대표 일러스트와 수치 프로필은 F-35A 기준이다.",
+      "description": "F-35 계열의 개발 연혁과 A·B·C형의 이착륙 방식, 날개와 공개 제원 차이를 형식별로 정리합니다.",
+      "profileIds": [
+        "f35a",
+        "f35b",
+        "f35c"
+      ],
+      "reviewScope": "이 문서의 개발 연혁·주요 형식 차이와 표시한 공개 제원만 2026-11-07에 검토했다. 계열 기본 문서의 대표 일러스트와 기본 프로필은 F-35A이며 B·C는 독립 프로필과 기존 별도 문서로 구분한다. 전체 도감 337종의 심층 검증 완료를 의미하지 않는다.",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "하나의 계열, 세 가지 이착륙 방식",
+          "paragraphs": [
+            "F-35는 단좌·단발 다목적 전투기 계열이다. A형은 일반 활주로에서 운용하는 재래식 이착륙형, B형은 단거리 이륙·수직 착륙형, C형은 항공모함에서 사출 이륙과 제동 착함을 하는 형식이다.",
+            "이 계열 문서의 대표 일러스트와 기본 수치 프로필은 F-35A를 기준으로 한다. F-35B와 F-35C의 제원은 별도 프로필로 구분한다."
+          ],
+          "sources": [
+            "f35-single",
+            "f35-variants",
+            "f35c-design"
+          ]
+        },
+        {
+          "id": "development",
+          "title": "JSF 선정 이후 형식별 시험과 운용으로",
+          "paragraphs": [
+            "미 국방부는 2001년 록히드 마틴 주도팀을 JSF 개발 계약의 승자로 선정했다. 이후 A형 시험기의 첫 비행을 시작으로 B형과 C형이 차례로 비행시험에 들어갔다.",
+            "첫 비행, 군 인도, 초기작전운용능력(IOC) 선언은 서로 다른 단계다. 아래 연표는 확인한 단계의 이름을 구분해서 표시한다."
+          ],
+          "sources": [
+            "f35-navair",
+            "f35-first-flight",
+            "f35-timeline"
+          ]
+        },
+        {
+          "id": "variant-design",
+          "title": "B형의 수직 착륙과 C형의 함상 설계",
+          "paragraphs": [
+            "B형은 짧은 거리에서 이륙하고 수직으로 착륙하도록 설계됐다. C형은 다른 형식보다 넓은 날개와 견고한 착륙장치를 갖추며, 날개 끝을 접어 항공모함 갑판에서 차지하는 공간을 줄인다.",
+            "A·B·C는 같은 기체의 이착륙 방식을 단순히 바꾼 이름이 아니다. 치수와 공개 중량 등급, 내부 연료 기준의 반경·거리도 각 형식의 표를 확인해야 한다."
+          ],
+          "sources": [
+            "f35-variants",
+            "f35c-design"
+          ]
+        },
+        {
+          "id": "reading-specifications",
+          "title": "항속거리와 전투행동반경을 따로 읽기",
+          "paragraphs": [
+            "제조사 비교표는 전투행동반경과 항속거리를 구별하며 내부 연료 조건과 군별 비행 프로필을 함께 제시한다. 같은 이름의 항목이라도 프로필이 다르므로 수치만으로 전체 능력 순위를 정하기 어렵다.",
+            "제조사의 Maximum Weight는 등급(class) 표현을 보존하고 최대이륙중량과 분리했다. A형은 미 공군 주방위군의 공개표가 Maximum Takeoff Weight를 따로 명시하므로 해당 등급을 추가했다. B·C형에는 A형 값을 대입하지 않는다."
+          ],
+          "sources": [
+            "f35-variants",
+            "f35a-mtow"
+          ]
+        },
+        {
+          "id": "perspective",
+          "title": "스텔스와 수직 착륙에 관한 오해",
+          "paragraphs": [
+            "F-35가 모두 수직 착륙하는 것은 아니다. B형의 STOVL과 C형의 항공모함 운용 방식은 구별해야 한다.",
+            "스텔스는 완전히 보이지 않는다는 뜻이 아니다. 제조사는 기체 형상, 재료와 내부 탑재 등으로 탐지와 추적을 어렵게 하는 저피탐 특성으로 설명한다."
+          ],
+          "sources": [
+            "f35-variants",
+            "f35c-design",
+            "f35-about"
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2001-10-26",
+          "event": "미 국방부가 록히드 마틴 주도팀을 JSF 개발 계약의 승자로 선정했다.",
+          "source": "f35-navair"
+        },
+        {
+          "date": "2006-12-15",
+          "event": "F-35A 시험기 AA-1이 첫 비행을 했다.",
+          "source": "f35-first-flight"
+        },
+        {
+          "date": "2008-06-11",
+          "event": "F-35B가 첫 비행을 했다.",
+          "source": "f35-timeline"
+        },
+        {
+          "date": "2010-06-06",
+          "event": "F-35C가 첫 비행을 했다.",
+          "source": "f35-timeline"
+        },
+        {
+          "date": "2016-08-02",
+          "event": "미 공군이 F-35A의 초기작전운용능력(IOC)을 선언했다.",
+          "source": "f35-timeline"
+        },
+        {
+          "date": "2019-02",
+          "event": "미 해군이 F-35C의 초기작전운용능력(IOC)을 선언했다.",
+          "source": "f35-timeline"
+        }
+      ],
+      "variants": [
+        {
+          "name": "F-35A",
+          "description": "일반 활주로에서 운용하는 CTOL형. 이 계열 문서의 대표 프로필이다.",
+          "source": "f35-variants"
+        },
+        {
+          "name": "F-35B",
+          "description": "단거리 이륙·수직 착륙용 STOVL형. 기존 F-35B 별도 문서와 독립 프로필로 연결한다.",
+          "source": "f35-variants"
+        },
+        {
+          "name": "F-35C",
+          "description": "사출 이륙·제동 착함용 함재형. 넓은 날개, 강화 착륙장치와 접이식 날개 끝을 갖춘다.",
+          "source": "f35c-design"
+        }
+      ],
+      "related": [
+        "f35b-lightning",
+        "f35c-lightning",
+        "f22-raptor",
+        "kf21-boramae"
+      ]
+    }
+  }
+}

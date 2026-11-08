@@ -1,0 +1,1860 @@
+{
+  "measurements": [
+    {
+      "width": 360,
+      "label": "home",
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "domNodes": 293,
+      "images": 20,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "mq9-reaper.webp",
+          "bytes": 20354
+        },
+        {
+          "name": "ak47-history.webp",
+          "bytes": 49476
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 65.90000009536743,
+        "navigationId": 880,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 1.799999713897705,
+        "domainLookupStart": 1.799999713897705,
+        "domainLookupEnd": 1.799999713897705,
+        "connectStart": 1.799999713897705,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.799999713897705,
+        "requestStart": 3.5999999046325684,
+        "responseStart": 6.400000095367432,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 6.400000095367432,
+        "responseEnd": 6.699999809265137,
+        "transferSize": 18088,
+        "encodedBodySize": 17788,
+        "decodedBodySize": 17788,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 22.5,
+        "domContentLoadedEventStart": 35.799999713897705,
+        "domContentLoadedEventEnd": 35.799999713897705,
+        "domComplete": 65.90000009536743,
+        "loadEventStart": 65.90000009536743,
+        "loadEventEnd": 65.90000009536743,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 360,
+      "label": "atlas",
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "domNodes": 1091,
+      "images": 24,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "type052d-destroyer.webp",
+          "bytes": 56068
+        },
+        {
+          "name": "f16-fighting-falcon.webp",
+          "bytes": 68694
+        },
+        {
+          "name": "type055-destroyer.webp",
+          "bytes": 50810
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/atlas/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 26.199999809265137,
+        "navigationId": 8883,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.6999998092651367,
+        "domainLookupStart": 0.6999998092651367,
+        "domainLookupEnd": 0.6999998092651367,
+        "connectStart": 0.6999998092651367,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.6999998092651367,
+        "requestStart": 1.9000000953674316,
+        "responseStart": 2.4000000953674316,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.4000000953674316,
+        "responseEnd": 2.5,
+        "transferSize": 49092,
+        "encodedBodySize": 48792,
+        "decodedBodySize": 48792,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.199999809265137,
+        "domContentLoadedEventStart": 21.59999990463257,
+        "domContentLoadedEventEnd": 21.59999990463257,
+        "domComplete": 26.199999809265137,
+        "loadEventStart": 26.199999809265137,
+        "loadEventEnd": 26.199999809265137,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 360,
+      "label": "compare",
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "domNodes": 941,
+      "images": 2,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/compare/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 38.5,
+        "navigationId": 7910,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.39999961853027344,
+        "domainLookupStart": 0.39999961853027344,
+        "domainLookupEnd": 0.39999961853027344,
+        "connectStart": 0.39999961853027344,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.39999961853027344,
+        "requestStart": 1.5,
+        "responseStart": 2.799999713897705,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.799999713897705,
+        "responseEnd": 3.299999713897705,
+        "transferSize": 55619,
+        "encodedBodySize": 55319,
+        "decodedBodySize": 55319,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 8,
+        "domContentLoadedEventStart": 27.5,
+        "domContentLoadedEventEnd": 27.5,
+        "domComplete": 38.5,
+        "loadEventStart": 38.5,
+        "loadEventEnd": 38.5,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 360,
+      "label": "m1",
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "domNodes": 381,
+      "images": 4,
+      "resources": [
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/m1-abrams/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 16.90000009536743,
+        "navigationId": 8555,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.40000009536743164,
+        "domainLookupStart": 0.40000009536743164,
+        "domainLookupEnd": 0.40000009536743164,
+        "connectStart": 0.40000009536743164,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.40000009536743164,
+        "requestStart": 1.9000000953674316,
+        "responseStart": 2.5,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.5,
+        "responseEnd": 2.5999999046325684,
+        "transferSize": 28866,
+        "encodedBodySize": 28566,
+        "decodedBodySize": 28566,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 6.400000095367432,
+        "domContentLoadedEventStart": 15.5,
+        "domContentLoadedEventEnd": 15.599999904632568,
+        "domComplete": 16.800000190734863,
+        "loadEventStart": 16.800000190734863,
+        "loadEventEnd": 16.90000009536743,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 360,
+      "label": "f35",
+      "scrollWidth": 360,
+      "clientWidth": 360,
+      "domNodes": 503,
+      "images": 5,
+      "resources": [
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/f35-lightning-ii/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 17.5,
+        "navigationId": 8912,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 0.5,
+        "domainLookupEnd": 0.5,
+        "connectStart": 0.5,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.5,
+        "requestStart": 1.8000001907348633,
+        "responseStart": 2.3000001907348633,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.3000001907348633,
+        "responseEnd": 2.5,
+        "transferSize": 33474,
+        "encodedBodySize": 33174,
+        "decodedBodySize": 33174,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 6.400000095367432,
+        "domContentLoadedEventStart": 15.900000095367432,
+        "domContentLoadedEventEnd": 15.900000095367432,
+        "domComplete": 17.5,
+        "loadEventStart": 17.5,
+        "loadEventEnd": 17.5,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 390,
+      "label": "home",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "domNodes": 293,
+      "images": 20,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "mq9-reaper.webp",
+          "bytes": 20354
+        },
+        {
+          "name": "ak47-history.webp",
+          "bytes": 49476
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 16.09999990463257,
+        "navigationId": 6180,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5999999046325684,
+        "domainLookupStart": 0.5999999046325684,
+        "domainLookupEnd": 0.5999999046325684,
+        "connectStart": 0.5999999046325684,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.5999999046325684,
+        "requestStart": 1.3000001907348633,
+        "responseStart": 2,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2,
+        "responseEnd": 2.3000001907348633,
+        "transferSize": 18088,
+        "encodedBodySize": 17788,
+        "decodedBodySize": 17788,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 5.900000095367432,
+        "domContentLoadedEventStart": 15.700000286102295,
+        "domContentLoadedEventEnd": 15.700000286102295,
+        "domComplete": 16.09999990463257,
+        "loadEventStart": 16.09999990463257,
+        "loadEventEnd": 16.09999990463257,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 390,
+      "label": "atlas",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "domNodes": 1091,
+      "images": 24,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "type052d-destroyer.webp",
+          "bytes": 56068
+        },
+        {
+          "name": "f16-fighting-falcon.webp",
+          "bytes": 68694
+        },
+        {
+          "name": "type055-destroyer.webp",
+          "bytes": 50810
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/atlas/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 25.90000009536743,
+        "navigationId": 2167,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.40000009536743164,
+        "domainLookupStart": 0.8000001907348633,
+        "domainLookupEnd": 0.8000001907348633,
+        "connectStart": 0.8000001907348633,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.0999999046325684,
+        "requestStart": 1.0999999046325684,
+        "responseStart": 2.4000000953674316,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.4000000953674316,
+        "responseEnd": 2.5999999046325684,
+        "transferSize": 49092,
+        "encodedBodySize": 48792,
+        "decodedBodySize": 48792,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.199999809265137,
+        "domContentLoadedEventStart": 20.199999809265137,
+        "domContentLoadedEventEnd": 20.199999809265137,
+        "domComplete": 25.90000009536743,
+        "loadEventStart": 25.90000009536743,
+        "loadEventEnd": 25.90000009536743,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 390,
+      "label": "compare",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "domNodes": 941,
+      "images": 2,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/compare/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 40.69999980926514,
+        "navigationId": 3909,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5999999046325684,
+        "domainLookupStart": 1.1999998092651367,
+        "domainLookupEnd": 1.1999998092651367,
+        "connectStart": 1.1999998092651367,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.3000001907348633,
+        "requestStart": 1.4000000953674316,
+        "responseStart": 2.8000001907348633,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.8000001907348633,
+        "responseEnd": 2.9000000953674316,
+        "transferSize": 55619,
+        "encodedBodySize": 55319,
+        "decodedBodySize": 55319,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.800000190734863,
+        "domContentLoadedEventStart": 32.40000009536743,
+        "domContentLoadedEventEnd": 32.40000009536743,
+        "domComplete": 40.59999990463257,
+        "loadEventStart": 40.69999980926514,
+        "loadEventEnd": 40.69999980926514,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 390,
+      "label": "m1",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "domNodes": 381,
+      "images": 4,
+      "resources": [
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/m1-abrams/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 21.09999990463257,
+        "navigationId": 3006,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.6999998092651367,
+        "domainLookupStart": 1.3000001907348633,
+        "domainLookupEnd": 1.3000001907348633,
+        "connectStart": 1.3000001907348633,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.4000000953674316,
+        "requestStart": 1.5,
+        "responseStart": 3,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 3,
+        "responseEnd": 3.1999998092651367,
+        "transferSize": 28866,
+        "encodedBodySize": 28566,
+        "decodedBodySize": 28566,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.400000095367432,
+        "domContentLoadedEventStart": 20.59999990463257,
+        "domContentLoadedEventEnd": 20.59999990463257,
+        "domComplete": 21.09999990463257,
+        "loadEventStart": 21.09999990463257,
+        "loadEventEnd": 21.09999990463257,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 390,
+      "label": "f35",
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "domNodes": 503,
+      "images": 5,
+      "resources": [
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/f35-lightning-ii/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 19.200000286102295,
+        "navigationId": 4524,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 1,
+        "domainLookupEnd": 1,
+        "connectStart": 1,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.200000286102295,
+        "requestStart": 1.200000286102295,
+        "responseStart": 2,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2,
+        "responseEnd": 2.200000286102295,
+        "transferSize": 33474,
+        "encodedBodySize": 33174,
+        "decodedBodySize": 33174,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 6.400000095367432,
+        "domContentLoadedEventStart": 17.600000381469727,
+        "domContentLoadedEventEnd": 17.600000381469727,
+        "domComplete": 19.200000286102295,
+        "loadEventStart": 19.200000286102295,
+        "loadEventEnd": 19.200000286102295,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 768,
+      "label": "home",
+      "scrollWidth": 753,
+      "clientWidth": 753,
+      "domNodes": 293,
+      "images": 20,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "ak47-history.webp",
+          "bytes": 49476
+        },
+        {
+          "name": "mq9-reaper.webp",
+          "bytes": 20354
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 24.700000286102295,
+        "navigationId": 8916,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 5.400000095367432,
+        "domainLookupStart": 5.400000095367432,
+        "domainLookupEnd": 5.400000095367432,
+        "connectStart": 5.400000095367432,
+        "secureConnectionStart": 0,
+        "connectEnd": 5.400000095367432,
+        "requestStart": 6.300000190734863,
+        "responseStart": 7,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 7,
+        "responseEnd": 7.100000381469727,
+        "transferSize": 18088,
+        "encodedBodySize": 17788,
+        "decodedBodySize": 17788,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 11.200000286102295,
+        "domContentLoadedEventStart": 24.300000190734863,
+        "domContentLoadedEventEnd": 24.300000190734863,
+        "domComplete": 24.700000286102295,
+        "loadEventStart": 24.700000286102295,
+        "loadEventEnd": 24.700000286102295,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 768,
+      "label": "atlas",
+      "scrollWidth": 753,
+      "clientWidth": 753,
+      "domNodes": 1091,
+      "images": 24,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "f16-fighting-falcon.webp",
+          "bytes": 68694
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/atlas/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 23.300000190734863,
+        "navigationId": 5207,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5999999046325684,
+        "domainLookupStart": 1.1999998092651367,
+        "domainLookupEnd": 1.1999998092651367,
+        "connectStart": 1.1999998092651367,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.3000001907348633,
+        "requestStart": 1.4000000953674316,
+        "responseStart": 2,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2,
+        "responseEnd": 2.3000001907348633,
+        "transferSize": 49092,
+        "encodedBodySize": 48792,
+        "decodedBodySize": 48792,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.099999904632568,
+        "domContentLoadedEventStart": 18.800000190734863,
+        "domContentLoadedEventEnd": 18.800000190734863,
+        "domComplete": 23.199999809265137,
+        "loadEventStart": 23.300000190734863,
+        "loadEventEnd": 23.300000190734863,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 768,
+      "label": "compare",
+      "scrollWidth": 753,
+      "clientWidth": 753,
+      "domNodes": 941,
+      "images": 2,
+      "resources": [
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        },
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/compare/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 62.799999713897705,
+        "navigationId": 1106,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5999999046325684,
+        "domainLookupStart": 1.8999996185302734,
+        "domainLookupEnd": 1.8999996185302734,
+        "connectStart": 1.8999996185302734,
+        "secureConnectionStart": 0,
+        "connectEnd": 2.0999999046325684,
+        "requestStart": 2.1999998092651367,
+        "responseStart": 2.8999996185302734,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.8999996185302734,
+        "responseEnd": 3,
+        "transferSize": 55619,
+        "encodedBodySize": 55319,
+        "decodedBodySize": 55319,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 8.099999904632568,
+        "domContentLoadedEventStart": 30.799999713897705,
+        "domContentLoadedEventEnd": 30.799999713897705,
+        "domComplete": 62.799999713897705,
+        "loadEventStart": 62.799999713897705,
+        "loadEventEnd": 62.799999713897705,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 768,
+      "label": "m1",
+      "scrollWidth": 753,
+      "clientWidth": 753,
+      "domNodes": 381,
+      "images": 4,
+      "resources": [
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/m1-abrams/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 16.40000009536743,
+        "navigationId": 8434,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 0.9000000953674316,
+        "domainLookupEnd": 0.9000000953674316,
+        "connectStart": 0.9000000953674316,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.0999999046325684,
+        "requestStart": 1.0999999046325684,
+        "responseStart": 1.9000000953674316,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 1.9000000953674316,
+        "responseEnd": 2.200000286102295,
+        "transferSize": 28866,
+        "encodedBodySize": 28566,
+        "decodedBodySize": 28566,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 6.300000190734863,
+        "domContentLoadedEventStart": 16.200000286102295,
+        "domContentLoadedEventEnd": 16.200000286102295,
+        "domComplete": 16.40000009536743,
+        "loadEventStart": 16.40000009536743,
+        "loadEventEnd": 16.40000009536743,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 768,
+      "label": "f35",
+      "scrollWidth": 753,
+      "clientWidth": 753,
+      "domNodes": 503,
+      "images": 5,
+      "resources": [
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/f35-lightning-ii/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 19.300000190734863,
+        "navigationId": 1546,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 1,
+        "domainLookupEnd": 1,
+        "connectStart": 1,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.200000286102295,
+        "requestStart": 1.3000001907348633,
+        "responseStart": 2.200000286102295,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.200000286102295,
+        "responseEnd": 2.4000000953674316,
+        "transferSize": 33474,
+        "encodedBodySize": 33174,
+        "decodedBodySize": 33174,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7,
+        "domContentLoadedEventStart": 18.600000381469727,
+        "domContentLoadedEventEnd": 18.600000381469727,
+        "domComplete": 19.300000190734863,
+        "loadEventStart": 19.300000190734863,
+        "loadEventEnd": 19.300000190734863,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 1440,
+      "label": "home",
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "domNodes": 293,
+      "images": 20,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "ak47-history.webp",
+          "bytes": 49476
+        },
+        {
+          "name": "mq9-reaper.webp",
+          "bytes": 20354
+        },
+        {
+          "name": "f16-fighting-falcon.webp",
+          "bytes": 68694
+        },
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 23.59999990463257,
+        "navigationId": 8358,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 3.5999999046325684,
+        "domainLookupStart": 4.400000095367432,
+        "domainLookupEnd": 4.400000095367432,
+        "connectStart": 4.400000095367432,
+        "secureConnectionStart": 0,
+        "connectEnd": 4.599999904632568,
+        "requestStart": 4.599999904632568,
+        "responseStart": 5.299999713897705,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 5.299999713897705,
+        "responseEnd": 5.5,
+        "transferSize": 18088,
+        "encodedBodySize": 17788,
+        "decodedBodySize": 17788,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 9.900000095367432,
+        "domContentLoadedEventStart": 20.09999990463257,
+        "domContentLoadedEventEnd": 20.09999990463257,
+        "domComplete": 23.5,
+        "loadEventStart": 23.59999990463257,
+        "loadEventEnd": 23.59999990463257,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 1440,
+      "label": "atlas",
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "domNodes": 1091,
+      "images": 24,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        },
+        {
+          "name": "kf21-boramae.webp",
+          "bytes": 54406
+        },
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        },
+        {
+          "name": "sejong-the-great.webp",
+          "bytes": 58190
+        },
+        {
+          "name": "k9-thunder.webp",
+          "bytes": 82208
+        },
+        {
+          "name": "f16-fighting-falcon.webp",
+          "bytes": 68694
+        },
+        {
+          "name": "patriot-system.webp",
+          "bytes": 112888
+        },
+        {
+          "name": "type052d-destroyer.webp",
+          "bytes": 56068
+        },
+        {
+          "name": "type055-destroyer.webp",
+          "bytes": 50810
+        },
+        {
+          "name": "type-10.webp",
+          "bytes": 85950
+        },
+        {
+          "name": "panzer-i.webp",
+          "bytes": 167888
+        },
+        {
+          "name": "type212a-submarine.webp",
+          "bytes": 33974
+        },
+        {
+          "name": "panzer-ii.webp",
+          "bytes": 170844
+        },
+        {
+          "name": "panzer-38t.webp",
+          "bytes": 182132
+        },
+        {
+          "name": "stug-iii.webp",
+          "bytes": 225216
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/atlas/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 26.300000190734863,
+        "navigationId": 812,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 1,
+        "domainLookupEnd": 1,
+        "connectStart": 1,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.1999998092651367,
+        "requestStart": 1.1999998092651367,
+        "responseStart": 2.0999999046325684,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.0999999046325684,
+        "responseEnd": 2.4000000953674316,
+        "transferSize": 49092,
+        "encodedBodySize": 48792,
+        "decodedBodySize": 48792,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 6.800000190734863,
+        "domContentLoadedEventStart": 20.5,
+        "domContentLoadedEventEnd": 20.59999990463257,
+        "domComplete": 26.300000190734863,
+        "loadEventStart": 26.300000190734863,
+        "loadEventEnd": 26.300000190734863,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 1440,
+      "label": "compare",
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "domNodes": 941,
+      "images": 2,
+      "resources": [
+        {
+          "name": "k2-black-panther.webp",
+          "bytes": 87240
+        },
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/compare/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 36.799999713897705,
+        "navigationId": 9858,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5,
+        "domainLookupStart": 0.5,
+        "domainLookupEnd": 0.5,
+        "connectStart": 0.5,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.5,
+        "requestStart": 1.5,
+        "responseStart": 2.0999999046325684,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.0999999046325684,
+        "responseEnd": 2.3999996185302734,
+        "transferSize": 55619,
+        "encodedBodySize": 55319,
+        "decodedBodySize": 55319,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.299999713897705,
+        "domContentLoadedEventStart": 26.399999618530273,
+        "domContentLoadedEventEnd": 26.399999618530273,
+        "domComplete": 36.799999713897705,
+        "loadEventStart": 36.799999713897705,
+        "loadEventEnd": 36.799999713897705,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 1440,
+      "label": "m1",
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "domNodes": 381,
+      "images": 4,
+      "resources": [
+        {
+          "name": "m1-abrams.webp",
+          "bytes": 58846
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/m1-abrams/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 21.09999990463257,
+        "navigationId": 1931,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.5999999046325684,
+        "domainLookupStart": 1.3000001907348633,
+        "domainLookupEnd": 1.3000001907348633,
+        "connectStart": 1.3000001907348633,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.5,
+        "requestStart": 1.5,
+        "responseStart": 2.700000286102295,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.700000286102295,
+        "responseEnd": 3,
+        "transferSize": 28866,
+        "encodedBodySize": 28566,
+        "decodedBodySize": 28566,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 8,
+        "domContentLoadedEventStart": 20,
+        "domContentLoadedEventEnd": 20,
+        "domComplete": 21.09999990463257,
+        "loadEventStart": 21.09999990463257,
+        "loadEventEnd": 21.09999990463257,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    },
+    {
+      "width": 1440,
+      "label": "f35",
+      "scrollWidth": 1425,
+      "clientWidth": 1425,
+      "domNodes": 503,
+      "images": 5,
+      "resources": [
+        {
+          "name": "f35-lightning-ii.webp",
+          "bytes": 18916
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:8768/weapons/f35-lightning-ii/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 23.90000009536743,
+        "navigationId": 1990,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.0",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.6000003814697266,
+        "domainLookupStart": 1.200000286102295,
+        "domainLookupEnd": 1.200000286102295,
+        "connectStart": 1.200000286102295,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.4000000953674316,
+        "requestStart": 1.4000000953674316,
+        "responseStart": 2.700000286102295,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 2.700000286102295,
+        "responseEnd": 2.9000000953674316,
+        "transferSize": 33474,
+        "encodedBodySize": 33174,
+        "decodedBodySize": 33174,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 7.200000286102295,
+        "domContentLoadedEventStart": 23.40000009536743,
+        "domContentLoadedEventEnd": 23.40000009536743,
+        "domComplete": 23.800000190734863,
+        "loadEventStart": 23.90000009536743,
+        "loadEventEnd": 23.90000009536743,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {}
+      },
+      "smallTargets": [
+        {
+          "tag": "A",
+          "id": "",
+          "text": "무기 도감",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "제원 비교",
+          "height": 17.5,
+          "width": 52.234375
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "text": "사이트 안내",
+          "height": 17.5,
+          "width": 64.34375
+        }
+      ],
+      "errors": [],
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+    }
+  ],
+  "table": {
+    "scrollLeft": 8.5,
+    "bodyWidth": 360,
+    "viewport": 360,
+    "headers": [
+      "항목",
+      "실물 사진 기반 AI 일러스트 · 정승익 작가 / 대한민국 국군 · CC BY-SA 2.0K2 흑표K2 · 현대로템 일반 공개형",
+      "실물 사진 기반 AI 일러스트 · Sgt. Melissa N. Lessard / U.S. Army · 미국 정부 저작물 (퍼블릭 도메인)M1 에이브럼스M1A2 SEPv3 · 미 육군 공개형"
+    ],
+    "rowHeaders": 10,
+    "oneColumnFits": true
+  }
+}
