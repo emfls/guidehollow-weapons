@@ -100,6 +100,18 @@ for(const item of items){
  });
  if(!hasOgType)html=html.replace('</head>','<meta property="og:type" content="article"></head>');
  if(item.illustration&&!html.includes('property="og:image"'))html=html.replace('</head>',`<meta property="og:image" content="https://weapons.guidehollow.com/assets/illustrations/${item.slug}.webp"></head>`);
+ // Give every image-unavailable article a same-sized honest media panel.
+ if(!item.illustration){
+  const start=html.search(/<section\b[^>]*class="[^"]*\barticle-hero\b[^"]*"/);
+  if(start>=0){
+   const end=html.indexOf('</section>',start);
+   assert.ok(end>start,item.slug+' missing hero close');
+   if(!/class="[^"]*(?:article-art|media-pending|image-awaiting)/.test(html.slice(start,end))){
+    const pending='<div class="art-pane media-pending image-awaiting article-art" role="img" aria-label="'+e(item.name)+' 이미지 자료 확인 중"><div class="media-pending-note"><span class="pending-code" aria-hidden="true">IMAGE PENDING</span><strong>'+e(item.name)+'</strong><span>기종과 재사용 조건을 확인한 이미지 준비 중 · 본문은 열람할 수 있습니다.</span></div></div>';
+    html=html.slice(0,end)+pending+html.slice(end);
+   }
+  }
+ }
  const url='https://weapons.guidehollow.com/weapons/'+item.slug+'/';
  const structured={'@context':'https://schema.org','@graph':[{'@type':'TechArticle',headline:item.name,description,url,mainEntityOfPage:url,...(item.illustration?{image:'https://weapons.guidehollow.com/assets/illustrations/'+item.slug+'.webp'}:{}),...(editorial.articles[item.slug]?{dateModified:editorial.reviewDate}:{})},{'@type':'BreadcrumbList',itemListElement:[{'@type':'ListItem',position:1,name:'홈',item:'https://weapons.guidehollow.com/'},{'@type':'ListItem',position:2,name:'무기 도감',item:'https://weapons.guidehollow.com/atlas/'},{'@type':'ListItem',position:3,name:item.name,item:url}]}]};
  html=html.replace(/<script type="application\/ld\+json" data-generated="article">[\s\S]*?<\/script>/g,'');
