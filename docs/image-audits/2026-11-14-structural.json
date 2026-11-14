@@ -1,0 +1,358 @@
+{
+  "total": 337,
+  "present": 267,
+  "missing": [
+    {
+      "slug": "k806-wav",
+      "name": "K806 차륜형장갑차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k1-arv",
+      "name": "K1 구난전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k1e1",
+      "name": "K1E1 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k56-arv",
+      "name": "K56 탄약운반장갑차",
+      "category": "포병체계"
+    },
+    {
+      "slug": "k77-fdcv",
+      "name": "K77 사격지휘장갑차",
+      "category": "포병체계"
+    },
+    {
+      "slug": "k9a2",
+      "name": "K9A2 자주포 개발형",
+      "category": "포병체계"
+    },
+    {
+      "slug": "t50iq-export",
+      "name": "T-50IQ 이라크형",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "kc330-cygnus",
+      "name": "KC-330 시그너스",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "centurion-tank",
+      "name": "센추리온 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "comet-tank",
+      "name": "코멧 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "davids-sling",
+      "name": "다비즈 슬링 방공체계",
+      "category": "방공체계"
+    },
+    {
+      "slug": "arrow-3",
+      "name": "애로 3 미사일 방어체계",
+      "category": "방공체계"
+    },
+    {
+      "slug": "mh60r-rok",
+      "name": "MH-60R 시호크 (한국 해군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "ch47f-rok",
+      "name": "CH-47F 치누크 (한국 육군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "c130j-rokaf",
+      "name": "C-130J 슈퍼 허큘리스 (한국 공군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "k2c1-rifle",
+      "name": "K2C1 소총",
+      "category": "개인화기 역사"
+    },
+    {
+      "slug": "k5-pistol",
+      "name": "K5 권총",
+      "category": "개인화기 역사"
+    },
+    {
+      "slug": "k15-lmg",
+      "name": "K15 기관총",
+      "category": "개인화기 역사"
+    },
+    {
+      "slug": "k6-heavy-machinegun",
+      "name": "K6 중기관총",
+      "category": "개인화기 역사"
+    },
+    {
+      "slug": "m48-patton",
+      "name": "M48 패튼",
+      "category": "지상무기"
+    },
+    {
+      "slug": "m551-sheridan",
+      "name": "M551 셰리던",
+      "category": "지상무기"
+    },
+    {
+      "slug": "m41-walker-bulldog",
+      "name": "M41 워커 불독",
+      "category": "지상무기"
+    },
+    {
+      "slug": "m103-heavy",
+      "name": "M103 중전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "kt100",
+      "name": "KT-100 입문훈련기",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "c47-rokaf",
+      "name": "C-47 스카이트레인 (한국 공군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "l4-grasshopper-rokaf",
+      "name": "L-4 그래스호퍼 (한국 공군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "l5-sentinel-rokaf",
+      "name": "L-5 센티넬 (한국 공군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "vc118-rokaf",
+      "name": "VC-118 VIP 수송기 (한국 공군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "rf86f-rokaf",
+      "name": "RF-86F 정찰기 (한국 공군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "k2pl",
+      "name": "K2PL 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "as21-redback",
+      "name": "AS21 레드백",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k9-vidar",
+      "name": "K9 VIDAR",
+      "category": "포병체계"
+    },
+    {
+      "slug": "kmsam-cheongung",
+      "name": "KM-SAM 천궁",
+      "category": "방공체계"
+    },
+    {
+      "slug": "lsam",
+      "name": "L-SAM 장거리 방공체계",
+      "category": "방공체계"
+    },
+    {
+      "slug": "kpsam-shingung",
+      "name": "KP-SAM 신궁",
+      "category": "방공체계"
+    },
+    {
+      "slug": "k9pl",
+      "name": "K9PL 자주포 개발형",
+      "category": "포병체계"
+    },
+    {
+      "slug": "k21-105",
+      "name": "K21-105 경전차 개념형",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k105a1-evo",
+      "name": "K105A1 차륜형 자주포",
+      "category": "포병체계"
+    },
+    {
+      "slug": "k136a1-kooryong",
+      "name": "K136A1 구룡",
+      "category": "포병체계"
+    },
+    {
+      "slug": "k277-command",
+      "name": "K277 지휘장갑차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k263a1",
+      "name": "K263A1 자주발칸",
+      "category": "방공체계"
+    },
+    {
+      "slug": "k242a1",
+      "name": "K242A1 박격포장갑차",
+      "category": "포병체계"
+    },
+    {
+      "slug": "k281a1",
+      "name": "K281A1 박격포장갑차",
+      "category": "포병체계"
+    },
+    {
+      "slug": "km900",
+      "name": "KM900 장갑차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k511a1",
+      "name": "K511A1 군용트럭",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k711a1",
+      "name": "K711A1 군용트럭",
+      "category": "지상무기"
+    },
+    {
+      "slug": "kaav-ii",
+      "name": "KAAV-II 상륙돌격장갑차 개발형",
+      "category": "지상무기"
+    },
+    {
+      "slug": "k216-nbc",
+      "name": "K216 화생방정찰장갑차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "f16-peace-bridge-rok",
+      "name": "F-16 피스브리지 도입형",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "aw159-wildcat-rok",
+      "name": "AW159 와일드캣 (한국 해군)",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "p3ck-orion",
+      "name": "P-3CK 오라이언",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "hh47d-rok",
+      "name": "HH-47D 구조헬기",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "kus-ft-uav",
+      "name": "KUS-FT 전술무인기",
+      "category": "무인체계"
+    },
+    {
+      "slug": "kus-fc-uav",
+      "name": "KUS-FC 무인기 연구개발형",
+      "category": "무인체계"
+    },
+    {
+      "slug": "k311a1-truck",
+      "name": "K311A1 군용트럭",
+      "category": "지상무기"
+    },
+    {
+      "slug": "m48a3k",
+      "name": "M48A3K 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "m101a1-rok",
+      "name": "M101A1 견인곡사포 (한국군)",
+      "category": "포병체계"
+    },
+    {
+      "slug": "m110a2-rok",
+      "name": "M110A2 자주포 (한국군)",
+      "category": "포병체계"
+    },
+    {
+      "slug": "ktssm",
+      "name": "한국형 전술지대지유도무기",
+      "category": "포병체계"
+    },
+    {
+      "slug": "rc800-baekdu-geumgang",
+      "name": "RC-800 백두·금강 정찰기",
+      "category": "군용항공기"
+    },
+    {
+      "slug": "m88a1-rok",
+      "name": "M88A1 구난전차 (한국군)",
+      "category": "지상무기"
+    },
+    {
+      "slug": "m114-rok",
+      "name": "M114 155mm 견인곡사포 (한국군)",
+      "category": "포병체계"
+    },
+    {
+      "slug": "t62",
+      "name": "T-62 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "t72",
+      "name": "T-72 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "type61-jgsdf",
+      "name": "61식 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "type74-jgsdf",
+      "name": "74식 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "amx30",
+      "name": "AMX-30 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "t80",
+      "name": "T-80 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "t55",
+      "name": "T-55 전차",
+      "category": "지상무기"
+    },
+    {
+      "slug": "t64",
+      "name": "T-64 전차",
+      "category": "지상무기"
+    }
+  ],
+  "duplicate_images": [],
+  "errors": []
+}
